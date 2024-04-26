@@ -38,7 +38,11 @@ This challenge aims to estimate the transformations among US frames, such that t
 
 For detailed information, please refer to [task description](task.html), [dataset](data.html), [assessment](assessment.html), and [submission process](submission.html).
 
-**Prior to participating the challenge, we kindly request all participants to familiarize themselves with our [participation and data use policies, along with our code of conduct](policies.html). Furthermore, we ask participants to formally register by emailing their intent to participate to [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk).**
+**Prior to participating the challenge, we kindly request all participants to familiarize themselves with our [participation and data use policies, along with our code of conduct](policies.html). Furthermore, we ask participants to formally register by emailing their intent to participate to [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk) with the following information:**
+
+- Team name;
+- Full name(s) and email address(es) of all team members;
+- Team affiliation and country (e.g. University College London, United Kingdom);
 
 
 ## Awards
