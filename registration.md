@@ -1,10 +1,10 @@
 ---
-title: Submission
+title: Registration
 layout: home
 nav_order: 2
 ---
 
-# registration
+# Registration
 
 **Prior to participating the challenge, we kindly request all participants to familiarize themselves with our [participation and data use policies, along with our code of conduct](policies.html).**
 
