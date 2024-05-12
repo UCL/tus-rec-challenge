@@ -14,7 +14,7 @@ The TUS-REC challenge is an open call event, accepting new submissions after con
 
 **The full challenge description can be found [here](https://zenodo.org/doi/10.5281/zenodo.10991500).**
 <!-- can be found [here](https://zenodo.org/record/7844908).** -->
-**The challenge data is split into two parts: [Part 1](https://zenodo.org/doi/10.5281/zenodo.11178508), and [Part 2](https://zenodo.org/doi/10.5281/zenodo.11180794).**
+**The train data is split into two parts: [Part 1](https://zenodo.org/doi/10.5281/zenodo.11178508), and [Part 2](https://zenodo.org/doi/10.5281/zenodo.11180794).**
 <!-- **Sample baseline models for training and testing on the challenge data are accessible [here](https://github.com/muregpro/Baseline-Networks).** -->
 ## Timeline
 
@@ -35,13 +35,6 @@ The Challenge will take place on October 6th 2024 during the ASMUS Workshop. (De
 This challenge aims to estimate the transformations among US frames, such that the entire US scan can be reconstructed in 3D space, both for establishing one of the first benchmarks for 3D US reconstruction and paving the way from experimental volunteer studies to potential clinical applications for this challenging task.
 
 For detailed information, please refer to [task description](task.html), [dataset](data.html), [assessment](assessment.html), and [submission process](submission.html).
-
-**Prior to participating the challenge, we kindly request all participants to familiarize themselves with our [participation and data use policies, along with our code of conduct](policies.html). Furthermore, we ask participants to formally register by emailing their intent to participate to [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk) with the following information:**
-
-- Team name;
-- Full name(s) and email address(es) of all team members;
-- Team affiliation and country (e.g. University College London, United Kingdom);
-
 
 ## Awards
 
