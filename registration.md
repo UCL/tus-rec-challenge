@@ -10,7 +10,7 @@ nav_order: 2
 
 We ask participants to formally register by filling in this [form](https://forms.office.com/e/dPg47ktV7M).
 
-Please contact [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk) if you encoundter any problem during registration.
+Please contact [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk) if you encounter any problem during registration.
 
 <!-- Furthermore, we ask participants to formally register by emailing their intent to participate to [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk) with the following information:**
 
