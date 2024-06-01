@@ -8,7 +8,7 @@ nav_order: 4
 
 The data in this challenge is acquired from both left and right forearms of 100 volunteers, acquired at University College London, London, U.K, with a racial-, gender-, age-diverse subject cohort. No specific exclusion criteria as long as the participants do not have allergies or skin conditions which may be exacerbated by US gel. All scanned forearms are in good health. The data is randomly split into training, validation, and test sets of 50, 10, and 40 subjects (1200, 240, 960 scans), respectively.
 
-**The train data is split into two parts: [Part 1](https://zenodo.org/doi/10.5281/zenodo.11178508), and [Part 2](https://zenodo.org/doi/10.5281/zenodo.11180794).**
+**The train data is split into two parts: [Part 1](https://zenodo.org/doi/10.5281/zenodo.11178508), [Part 2](https://zenodo.org/doi/10.5281/zenodo.11180794), and [Part 3](https://zenodo.org/doi/10.5281/zenodo.11355499).**
 
 ## Images
 

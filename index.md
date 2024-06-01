@@ -14,7 +14,7 @@ The TUS-REC challenge is an open call event, accepting new submissions after con
 
 **The full challenge description can be found [here](https://zenodo.org/doi/10.5281/zenodo.10991500).**
 <!-- can be found [here](https://zenodo.org/record/7844908).** -->
-**The train data is split into two parts: [Part 1](https://zenodo.org/doi/10.5281/zenodo.11178508), and [Part 2](https://zenodo.org/doi/10.5281/zenodo.11180794).**
+**The train data is split into three parts: [Part 1](https://zenodo.org/doi/10.5281/zenodo.11178508), [Part 2](https://zenodo.org/doi/10.5281/zenodo.11180794), and [Part 3](https://zenodo.org/doi/10.5281/zenodo.11355499).**
 <!-- **Sample baseline models for training and testing on the challenge data are accessible [here](https://github.com/muregpro/Baseline-Networks).** -->
 ## Timeline
 
@@ -49,17 +49,17 @@ TBA on GitHub
 
 ## Organizers
 
-Qi Li, PhD student, University College London
+Qi Li, University College London
 
-Shaheer U. Saeed, PhD student, University College London
+Shaheer U. Saeed, University College London
 
-Dean C. Barratt, PhD, University College London
+Dean C. Barratt, University College London
 
-Matthew J. Clarkson, PhD, University College London
+Matthew J. Clarkson, University College London
 
-Tom Vercauteren, PhD, King's College London
+Tom Vercauteren, King's College London
 
-Yipeng Hu, PhD, University College London
+Yipeng Hu, University College London
 
 Challenge Contact E-Mail: [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk)
 
