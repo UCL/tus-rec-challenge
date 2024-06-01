@@ -13,9 +13,11 @@ Reconstructing 2D Ultrasound (US) images into a 3D volume enables 3D representat
 The TUS-REC challenge is an open call event, accepting new submissions after conference deadline. The fixed challenge submission timeline is associated with [MICCAI 2024](https://conferences.miccai.org/2024/en/), with the following [challenge timeline](#timeline).
 
 **The full challenge description can be found [here](https://zenodo.org/doi/10.5281/zenodo.10991500).**
+
 <!-- can be found [here](https://zenodo.org/record/7844908).** -->
 **The train data is split into three parts: [Part 1](https://zenodo.org/doi/10.5281/zenodo.11178508), [Part 2](https://zenodo.org/doi/10.5281/zenodo.11180794), and [Part 3](https://zenodo.org/doi/10.5281/zenodo.11355499).**
 <!-- **Sample baseline models for training and testing on the challenge data are accessible [here](https://github.com/muregpro/Baseline-Networks).** -->
+Baseline code is provided in this [repo](https://github.com/UCL/tus-rec-challenge_code).
 ## Timeline
 
 | Date                          | Challenge Milestone                              |
