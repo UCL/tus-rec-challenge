@@ -71,7 +71,7 @@ Challenge Contact E-Mail: [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk)
 <div >
   <a href="https://www.ucl.ac.uk/interventional-surgical-sciences/wellcome-epsrc-centre-interventional-and-surgical-sciences-weiss" target="_blank"><img style="padding: 10px;" src="img/weiss.png" width=140px></a>
   <a href="https://www.ucl.ac.uk/medical-image-computing" target="_blank"><img style="padding: 10px;" src="img/CMIC.png" width=140px></a>
-  <a href="https://conferences.miccai.org/2024/en/" target="_blank"><img style="padding: 10px;" src="img/miccai2024-logo.png" width=140px></a>
-  <a href="https://cohttps://miccai-ultrasound.github.io/#/asmus24" target="_blank"><img style="padding: 10px;" src="img/asmus.png" width=140px></a>
-  <a href="https://miccai.org/index.php/special-interest-groups/sig/" target="_blank"><img style="padding: 10px;" src="img/SIGMUS.png" width=140px></a>
+  <a href="https://conferences.miccai.org/2024/en/" target="_blank"><img style="padding: 10px;" src="img/miccai2024-logo.png" width=150px></a>
+  <a href="https://cohttps://miccai-ultrasound.github.io/#/asmus24" target="_blank"><img style="padding: 10px;" src="img/asmus.png" width=120px></a>
+  <a href="https://miccai.org/index.php/special-interest-groups/sig/" target="_blank"><img style="padding: 10px;" src="img/SIGMUS.png" width=150px></a>
 </div>
