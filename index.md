@@ -7,7 +7,7 @@ nav_order: 1
 # TUS-REC Challenge
 
 <div align=center>
-  <a target="_blank"><img style="padding: 10px;" src="img/logo.png" width=200px></a>
+  <a href="https://github.com/UCL/tus-rec-challenge/blob/main/img/TUS-REC%20CHALLENGE%20(MICCAI%202024).pdf" target="_blank"><img style="padding: 10px;" src="img/logo.png" width=200px></a>
 </div >
 
 **Trackerless 3D Freehand Ultrasound Reconstruction (TUS-REC) Challenge**
