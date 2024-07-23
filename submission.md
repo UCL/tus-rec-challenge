@@ -6,7 +6,7 @@ nav_order: 6
 
 # Submission Process
 
-* We have provided an example docker image [here](https://github.com/QiLi111/tus-rec-challenge_baseline/tree/main/submission), which can predict DDFs on the validation/test dataset. The source code is also available in [`submission`](https://github.com/QiLi111/tus-rec-challenge_baseline/tree/main/submission/) folder.
+* We have provided an example docker image [here](https://github.com/QiLi111/tus-rec-challenge_baseline/tree/main/submission#instructions-for-docker), which can predict DDFs on the validation/test dataset. The source code is also available in [`submission`](https://github.com/QiLi111/tus-rec-challenge_baseline/tree/main/submission/) folder.
 * The participants are expected to replace the contents of [`predict_ddfs`](https://github.com/QiLi111/tus-rec-challenge_baseline/blob/main/submission/predict_ddfs.py) function in [test.py](https://github.com/QiLi111/tus-rec-challenge_baseline/blob/f4f28055d099822e4b577e8cabc3df6f3aa4e896/submission/test.py#L36) with their own algorithm. The function is expected to take one entire scan as input, and output four kinds of DDFs. 
 The requirement of the `predict_ddfs` function is described below:
   * Input: 
