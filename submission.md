@@ -20,7 +20,7 @@ The requirement of the `predict_ddfs` function is described below:
      * `LL`: Local displacement vectors for landmarks, in mm. The DDF should be in numpy array format with a shape of [3,20], where 20 is the number of landmarks in a scan.
      
         
-> **NOTE:**  
+> **_NOTE:_**  
 > * If you are not sure about data dimensions, coordinate system or transformation direction, etc., please refer to the [example code](https://github.com/QiLi111/tus-rec-challenge_baseline/blob/main/submission/baseline_model/Prediction.py) in `baseline_model` folder.
 > * Only modify the implementation of the `predict_ddfs` function. It’s okay to add files but please do not change existing files other than `baseline_model` folder.
 > *  The order of the four kinds of DDFs cannot be changed and they must all be numpy arrays. Please ensure your prediction does not have null values. Otherwise, the final score could not be generated.  
