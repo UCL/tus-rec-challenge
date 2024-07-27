@@ -24,7 +24,7 @@ The TUS-REC challenge is an open call event, accepting new submissions after con
 <!-- can be found [here](https://zenodo.org/record/7844908).** -->
 **The train data is split into three parts: [Part 1](https://zenodo.org/doi/10.5281/zenodo.11178508), [Part 2](https://zenodo.org/doi/10.5281/zenodo.11180794), and [Part 3](https://zenodo.org/doi/10.5281/zenodo.11355499).**
 <!-- **Sample baseline models for training and testing on the challenge data are accessible [here](https://github.com/muregpro/Baseline-Networks).** -->
-**Validation dataset is available [here](https://zenodo.org/doi/10.5281/zenodo.12752246).**
+**Validation dataset is available [here](https://zenodo.org/doi/10.5281/zenodo.12979481).**
 
 **Baseline code is provided in this [repo](https://github.com/QiLi111/tus-rec-challenge_baseline), together with the submission/evaluation [code](https://github.com/QiLi111/tus-rec-challenge_baseline/tree/main/submission).**
 ## Timeline
