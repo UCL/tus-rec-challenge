@@ -35,7 +35,7 @@ The TUS-REC challenge is an open call event, accepting new submissions after con
 | May 13 2024                   | Training Data Release                            |
 | Jul. 29 2024                  | Validation Data Release                          |
 | Aug. 12 2024                  | Submissions begins                               |
-| ~~Aug. 19 2024~~ Sept. 09 2024               | Submissions Closes                               |
+| ~~Aug. 26 2024~~ Sept. 09 2024               | Submissions Closes                               |
 | Sep. 16 2024                  | Winners Announcement and Speaker Invitations     |
 | Oct. 6 2024                   | TUS-REC Challenge Event @ MICCAI 2024            |
 
