@@ -39,7 +39,7 @@ The TUS-REC challenge is an open call event, accepting new submissions after con
 | Sep. 16 2024                  | Winners Announcement and Speaker Invitations     |
 | Oct. 6 2024                   | TUS-REC Challenge Event @ MICCAI 2024            |
 
-The Challenge will take place on October 6th 2024 during the ASMUS Workshop. (Details for location, presentation, and event format: TBC.)
+<!-- The Challenge will take place on October 6th 2024 during the ASMUS Workshop. (Details for location, presentation, and event format: TBC.) -->
 
 ## The Task
 
@@ -54,9 +54,9 @@ The results from all participants will be made publicly available on leaderboard
 - The first-place and runner-up achievers will receive additional certificates.
 - Participants who successfully participated the challenge will be awarded certificates of participation.
 
-## Discussion Board 
+<!-- ## Discussion Board 
 
-TBA on GitHub
+TBA on GitHub -->
 
 ## Organizers
 

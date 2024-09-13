@@ -14,7 +14,9 @@ nav_order: 99
 |  7   |      USTC | Su Li, Haibo Yu, Ling Chang, Lei Zhang, Xujiong Ye | University of Science and Technology of China, China; University of Lincoln, United Kingdom      | **-15.192±11.731** | -9.713±5.251 | -20.671±22.378 | -14.627±5.437 | -15.758±21.892 | 92.109±19.549 | 85.843±22.733 | 0.835±0.113 | 0.856±1.379 | 7.471±0.907  |
 
 
-> Note: All scores (the larger the better) are normalised using the range of scores among all teams and thus may change if new submissions are added. The raw values of DDF errors (the smaller the better) before normalisation are also listed for your reference. All values are rounded to 3 decimal places. 
+> Note: All scores (the larger the better) are normalised using the range of scores among all teams but the submissions below baseline performance. The raw values of DDF errors (the smaller the better) before normalisation are also listed for your reference. All values are rounded to 3 decimal places. 
+ <!-- and thus may change if new submissions are added.  -->
+
 
 <!-- Note that in some cases higher score may be assgined to teams with slightly larger ddf errors. That's because they have performed uniformly better than other teams in most scans and thus will have a higher normalised score.  -->
 
