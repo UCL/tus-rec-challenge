@@ -36,7 +36,7 @@ The TUS-REC challenge is an open call event, accepting new submissions after con
 | Jul. 29 2024                  | Validation Data Release                          |
 | Aug. 12 2024                  | Submissions begins                               |
 | Sept. 09 2024                 | Submissions Closes                               |
-| Sep. 16 2024                  | Winners Announcement and Speaker Invitations     |
+| Sep. 16 2024                  | Winners Announcement     |
 | Oct. 6 2024                   | TUS-REC Challenge Event @ MICCAI 2024            |
 
 <!-- The Challenge will take place on October 6th 2024 during the ASMUS Workshop. (Details for location, presentation, and event format: TBC.) -->
