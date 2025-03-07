@@ -1,6 +1,7 @@
 ---
 title: Home
-layout: home
+# layout: home
+parent: Past Challenges
 nav_order: 1
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Submission
-layout: home
+# layout: home
+parent: Past Challenges
 nav_order: 6
 ---
 
