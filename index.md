@@ -4,6 +4,9 @@ layout: home
 nav_order: 1
 ---
 
+1. TOC
+{:toc}
+
 # TUS-REC Challenge 2025
 
 <div align=center>
@@ -12,8 +15,7 @@ nav_order: 1
 
 <!-- <a href="img/TUS-REC%20CHALLENGE%20(MICCAI%202024).pdf" target="_blank">PDF.</a> -->
 
-1. TOC
-{:toc}
+
 
 **Trackerless 3D Freehand Ultrasound Reconstruction (TUS-REC) Challenge**
 
