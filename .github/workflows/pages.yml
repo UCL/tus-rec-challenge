@@ -47,20 +47,20 @@ jobs:
           JEKYLL_ENV: production
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v4
-        with:
-          name: my-artifact-${{ matrix.runs-on }}
-          path: file-${{ matrix.runs-on }}.txt
+        uses: actions/upload-pages-artifact@v3
+        # with:
+        #   name: my-artifact-${{ matrix.runs-on }}
+        #   path: file-${{ matrix.runs-on }}.txt
         # with:
         #   name: github-pages
         #   path: ./_site
 
       - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          path: my-artifact
-          pattern: my-artifact-*
-          merge-multiple: true
+        uses: actions/download-artifact@v3
+        # with:
+        #   path: my-artifact
+        #   pattern: my-artifact-*
+        #   merge-multiple: true
         # with:
         #   name: github-pages
         #   path: ./_site
@@ -75,4 +75,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
