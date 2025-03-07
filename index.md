@@ -12,6 +12,8 @@ nav_order: 1
 
 <!-- <a href="img/TUS-REC%20CHALLENGE%20(MICCAI%202024).pdf" target="_blank">PDF.</a> -->
 
+1. TOC
+{:toc}
 
 **Trackerless 3D Freehand Ultrasound Reconstruction (TUS-REC) Challenge**
 
@@ -28,8 +30,7 @@ The TUS-REC challenge is an open call event, accepting new submissions after con
 
 **Baseline code is provided in this [repo](https://github.com/QiLi111/tus-rec-challenge_baseline), together with the submission/evaluation [code](https://github.com/QiLi111/tus-rec-challenge_baseline/tree/main/submission).**
 
-1. TOC
-{:toc}
+
 
 ## Timeline
 

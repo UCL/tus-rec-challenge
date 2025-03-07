@@ -4,3 +4,6 @@ title: Past Challenges
 has_toc: True
 nav_order: 8
 ---
+
+1. TOC
+{:toc}
