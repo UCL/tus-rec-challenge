@@ -1,5 +1,5 @@
 ---
-title: Home2024
+title: Home
 layout: default
 parent: TUS-REC2024
 nav_order: 1

@@ -5,5 +5,4 @@ has_toc: True
 nav_order: 8
 ---
 
-1. TOC
-{:toc}
+# Past Events of Trackerless 3D Freehand Ultrasound Reconstruction (TUS-REC) Challenge
