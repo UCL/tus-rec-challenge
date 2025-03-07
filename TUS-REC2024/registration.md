@@ -1,7 +1,7 @@
 ---
 title: Registration
 # layout: home
-parent: Past Challenges
+parent: TUS-REC2024
 nav_order: 2
 ---
 

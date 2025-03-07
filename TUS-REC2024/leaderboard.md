@@ -1,7 +1,7 @@
 ---
 title: Leaderboard
 # layout: home
-parent: Past Challenges
+parent: TUS-REC2024
 nav_order: 99
 ---
 | **Rank** | **Team Name** | **Team Members**                              | **Team Affiliation**                      | **Final Score** | **Global Score** | **Local Score** | **Pixel Score** | **Landmark Score** |     **GPE (mm)**      |     **GLE (mm)**      |     **LPE (mm)**     |     **LLE (mm)**     | **Run Time (s)** |

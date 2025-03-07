@@ -1,7 +1,7 @@
 ---
 title: Data Set
 # layout: home
-parent: Past Challenges
+parent: TUS-REC2024
 nav_order: 4
 ---
 
