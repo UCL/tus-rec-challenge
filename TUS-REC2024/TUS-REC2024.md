@@ -2,7 +2,7 @@
 title: TUS-REC2024
 # layout: home
 parent: Past Challenges
-has_toc: false
+has_toc: True
 nav_order: 1
 ---
 
