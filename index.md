@@ -27,6 +27,10 @@ The TUS-REC challenge is an open call event, accepting new submissions after con
 **Validation dataset is available [here](https://zenodo.org/doi/10.5281/zenodo.12979481).**
 
 **Baseline code is provided in this [repo](https://github.com/QiLi111/tus-rec-challenge_baseline), together with the submission/evaluation [code](https://github.com/QiLi111/tus-rec-challenge_baseline/tree/main/submission).**
+
+1. TOC
+{:toc}
+
 ## Timeline
 
 | Date                          | Challenge Milestone                              |
