@@ -1,14 +1,10 @@
-title: TUS-REC2025
-description: Website for the TUS-REC MICCAI 2025 Challenge.
+title: TUS-REC
+description: Website for the TUS-REC MICCAI 2024 Challenge.
 theme: just-the-docs
 
-url: https://github-pages.ucl.ac.uk/tus-rec-challenge-2025/
+url: https://github-pages.ucl.ac.uk/tus-rec-challenge/
 
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/img2025/logo.png"
-
-
-color_scheme: light
+color_scheme: dark
 
 callouts_level: quiet # or loud
 callouts:

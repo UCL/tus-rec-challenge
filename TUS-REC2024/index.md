@@ -7,7 +7,7 @@ nav_order: 1
 # TUS-REC Challenge
 
 <div align=center>
-  <a href="img2025/TUS-REC%20CHALLENGE%20(MICCAI%202024).pdf" target="_blank"><img style="padding: 10px;" src="img2025/logo.png" width=200px></a>
+  <a href="img/TUS-REC%20CHALLENGE%20(MICCAI%202024).pdf" target="_blank"><img style="padding: 10px;" src="img/logo.png" width=200px></a>
 </div >
 
 <!-- <a href="img/TUS-REC%20CHALLENGE%20(MICCAI%202024).pdf" target="_blank">PDF.</a> -->
@@ -79,8 +79,9 @@ Challenge Contact E-Mail: [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk)
 ## Sponsors
 
 <div >
-  <a href="https://www.ucl.ac.uk/medical-image-computing" target="_blank"><img style="padding: 10px;" src="img2025/UCL-Hawkes-Institute-BLACK.jpg" width=140px></a>
-  <a href="https://conferences.miccai.org/2025/en/" target="_blank"><img style="padding: 10px;" src="img2025/miccai2025-logo.png" width=150px></a>
-  <a href="https://miccai-ultrasound.github.io/#/asmus24" target="_blank"><img style="padding: 10px;" src="img2025/asmus.png" width=90px></a>
-  <a href="https://miccai.org/index.php/special-interest-groups/sig/" target="_blank"><img style="padding: 10px;" src="img2025/SIGMUS.png" width=190px></a>
+  <a href="https://www.ucl.ac.uk/interventional-surgical-sciences/wellcome-epsrc-centre-interventional-and-surgical-sciences-weiss" target="_blank"><img style="padding: 10px;" src="img/weiss.png" width=107px></a>
+  <a href="https://www.ucl.ac.uk/medical-image-computing" target="_blank"><img style="padding: 10px;" src="img/CMIC.png" width=140px></a>
+  <a href="https://conferences.miccai.org/2024/en/" target="_blank"><img style="padding: 10px;" src="img/miccai2024-logo.png" width=150px></a>
+  <a href="https://miccai-ultrasound.github.io/#/asmus24" target="_blank"><img style="padding: 10px;" src="img/asmus.png" width=90px></a>
+  <a href="https://miccai.org/index.php/special-interest-groups/sig/" target="_blank"><img style="padding: 10px;" src="img/SIGMUS.png" width=190px></a>
 </div>
