@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-# TUS-REC Challenge
+# TUS-REC Challenge 2025
 
 <div align=center>
   <a href="img2025/TUS-REC%20CHALLENGE%20(MICCAI%202024).pdf" target="_blank"><img style="padding: 10px;" src="img2025/logo.png" width=200px></a>
