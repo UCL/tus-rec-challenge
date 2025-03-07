@@ -79,6 +79,6 @@ Challenge Contact E-Mail: [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk)
 <div >
   <a href="https://www.ucl.ac.uk/medical-image-computing" target="_blank"><img style="padding: 10px;" src="img2025/UCL-Hawkes-Institute-BLACK.jpg" width=140px></a>
   <a href="https://conferences.miccai.org/2025/en/" target="_blank"><img style="padding: 10px;" src="img2025/miccai2025-logo.png" width=130px></a>
-  <a href="https://miccai-ultrasound.github.io/#/asmus24" target="_blank"><img style="padding: 10px;" src="img2025/asmus.png" width=120px></a>
-  <a href="https://miccai.org/index.php/special-interest-groups/sig/" target="_blank"><img style="padding: 10px;" src="img2025/SIGMUS.png" width=210px></a>
+  <a href="https://miccai-ultrasound.github.io/#/asmus24" target="_blank"><img style="padding: 10px;" src="img2025/asmus.png" width=110px></a>
+  <a href="https://miccai.org/index.php/special-interest-groups/sig/" target="_blank"><img style="padding: 10px;" src="img2025/SIGMUS.png" width=220px></a>
 </div>
