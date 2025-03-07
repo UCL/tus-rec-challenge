@@ -1,6 +1,6 @@
 ---
 title: Task Description
-# layout: home
+layout: default
 parent: TUS-REC2024
 nav_order: 3
 ---

@@ -1,11 +1,11 @@
 ---
 title: Home
-layout: home
+layout: default
 nav_order: 1
 ---
 
-1. TOC
-{:toc}
+<!-- 1. TOC
+{:toc} -->
 
 # TUS-REC Challenge 2025
 

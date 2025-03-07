@@ -1,6 +1,6 @@
 ---
 title: Past Challenges
-# layout: home
+layout: default
 has_toc: True
 nav_order: 8
 ---

@@ -1,6 +1,6 @@
 ---
 title: Registration
-# layout: home
+layout: default
 parent: TUS-REC2024
 nav_order: 2
 ---
