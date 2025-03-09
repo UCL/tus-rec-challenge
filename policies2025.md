@@ -1,7 +1,6 @@
 ---
 title: Policies
 layout: default
-parent: TUS-REC2024
 nav_order: 7
 ---
 
