@@ -47,11 +47,11 @@ The Challenge will take place on Sep. 23, 2025 during the <a href="TBA" target="
 
 This challenge aims to estimate the transformations among US frames, such that the entire US scan can be reconstructed in 3D space, both for establishing one of the first benchmarks for 3D US reconstruction on the introduced new scan protocol and paving the way from experimental volunteer studies to potential clinical applications for this challenging task.
 
-For detailed information, please refer to [task description](task.html), [dataset](data.html), [assessment](assessment.html), and [submission process](submission.html).
+For detailed information, please refer to [task description](task.html2025), [dataset](data2025.html), [assessment](assessment2025.html), and [submission process](submission2025.html).
 
 ## Awards
 
-The results from all participants will be made publicly available on leaderboards unless the submitted codes incurred errors during the evaluation process. Teams are allowed to make multiple distinct submissions (but must ensure they are not merely simple variations in hyperparameter values). The leaderboards will be accessible for public viewing [here](leaderboard.html).
+The results from all participants will be made publicly available on leaderboards unless the submitted codes incurred errors during the evaluation process. Teams are allowed to make multiple distinct submissions (but must ensure they are not merely simple variations in hyperparameter values). The leaderboards will be accessible for public viewing [here](leaderboard2025.html).
 
 - The first-place and runner-up achievers will receive additional certificates.
 - Participants who successfully participated the challenge will be awarded certificates of participation.
