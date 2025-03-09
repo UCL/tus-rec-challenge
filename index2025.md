@@ -23,14 +23,14 @@ reconstruction as the challenge task, TUS-REC2025 aims to 1) benchmark the model
 reconstruction for rotating scans, suitable for modern learning-based data-driven approaches.
 
 ## Main resources
-* [Full challenge description](TBA)
-* [Train data](TBA)<!-- * [Validation data](TBA) -->
-* [Baseline code](TBA)
-* [Submission/Evaluation code](TBA)
+* <a href="TBA" target="_blank">Full challenge description</a>
+* <a href="TBA" target="_blank">Train data</a><!-- * [Validation data](TBA) -->
+* <a href="TBA" target="_blank">Baseline code</a>
+* <a href="TBA" target="_blank">Submission/Evaluation code</a>
 
 ## Timeline
 
-The TUS-REC2025 challenge is an open call event, accepting new submissions after conference deadline. The fixed challenge submission timeline is associated with [MICCAI 2025](https://conferences.miccai.org/2025/en/), with the following challenge timeline.
+The TUS-REC2025 challenge is an open call event, accepting new submissions after conference deadline. The fixed challenge submission timeline is associated with <a href="https://conferences.miccai.org/2025/en/" target="_blank">MICCAI 2025</a>, with the following challenge timeline.
 
 | Date                          | Challenge Milestone                              |
 | :-----------------------------| :----------------------------------------------- |
@@ -41,7 +41,7 @@ The TUS-REC2025 challenge is an open call event, accepting new submissions after
 |  Sep. 01, 2025                 | Winners Announcement                               |
 |  Sep. 23, 2025                 | TUS-REC2025 Challenge Events at MICCAI 2025     |
 
-The Challenge will take place on Sep. 23, 2025 during the [ASMUS Workshop](TBA). (Details for location, presentation, and event format: TBC.)
+The Challenge will take place on Sep. 23, 2025 during the <a href="TBA" target="_blank">ASMUS Workshop</a>. (Details for location, presentation, and event format: TBC.)
 
 ## The Task
 
