@@ -1,7 +1,7 @@
 title: TUS-REC
 description: Website for the TUS-REC MICCAI Challenge.
 theme: just-the-docs
-  math: true
+math: true
 
 url: https://github-pages.ucl.ac.uk/tus-rec-challenge/
 
