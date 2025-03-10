@@ -23,14 +23,15 @@ reconstruction as the challenge task, TUS-REC2025 aims to 1) benchmark the model
 reconstruction for rotating scans, suitable for modern learning-based data-driven approaches.
 
 ## Main resources
-* <a href="TBA" target="_blank">Full challenge description</a>
-* <a href="TBA" target="_blank">Train data</a><!-- * [Validation data](TBA) -->
-* <a href="TBA" target="_blank">Baseline code</a>
-* <a href="TBA" target="_blank">Submission/Evaluation code</a>
+* <a href="TBA" target="_blank">Full challenge description</a> [TBA]
+* <a href="TBA" target="_blank">Train data</a> [TBA]
+<!-- * [Validation data](TBA) -->
+* <a href="TBA" target="_blank">Baseline code</a> [TBA]
+* <a href="TBA" target="_blank">Submission/Evaluation code</a> [TBA]
 
 ## Timeline
 
-The TUS-REC2025 challenge is an open call event, accepting new submissions after conference deadline. The fixed challenge submission timeline is associated with <a href="https://conferences.miccai.org/2025/en/" target="_blank">MICCAI 2025</a>, with the following challenge timeline.
+The TUS-REC2025 challenge is an open call event, accepting new submissions after conference deadline. The fixed challenge submission timeline below is associated with <a href="https://conferences.miccai.org/2025/en/" target="_blank">MICCAI 2025</a>.
 
 | Date                          | Challenge Milestone                              |
 | :-----------------------------| :----------------------------------------------- |
@@ -47,11 +48,11 @@ The Challenge will take place on Sep. 23, 2025 during the <a href="TBA" target="
 
 This challenge aims to estimate the transformations among US frames, such that the entire US scan can be reconstructed in 3D space, both for establishing one of the first benchmarks for 3D US reconstruction on the introduced new scan protocol and paving the way from experimental volunteer studies to potential clinical applications for this challenging task.
 
-For detailed information, please refer to [task description](task.html2025), [dataset](data2025.html), [assessment](assessment2025.html), and [submission process](submission2025.html).
+For detailed information, please refer to [task description](task2025.html), [dataset](data2025.html), [assessment](assessment2025.html), and [submission process](submission2025.html).
 
 ## Awards
 
-The results from all participants will be made publicly available on leaderboards unless the submitted codes incurred errors during the evaluation process. Teams are allowed to make multiple distinct submissions (but must ensure they are not merely simple variations in hyperparameter values). The leaderboards will be accessible for public viewing [here](leaderboard2025.html).
+The results from all participants will be made publicly available on leaderboard unless the submitted dockers incurred errors during the evaluation process. Teams are allowed to make multiple distinct submissions (but must ensure they are not merely simple variations in hyperparameter values). The leaderboard will be accessible for public viewing [here](leaderboard2025.html).
 
 - The first-place and runner-up achievers will receive additional certificates.
 - Participants who successfully participated the challenge will be awarded certificates of participation.
