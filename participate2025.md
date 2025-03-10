@@ -9,13 +9,13 @@ nav_order: 3
 - TOC
 {:toc}
 
-## Get details about the TUS-REC2025 Challenge
+## 1. Get details about the TUS-REC2025 Challenge
 
 * [Homepage](index2025.html)
 * <a href="TBA" target="_blank">Challenge description</a> [TBA]
 * Information about past [TUS-REC2024 Challenge](TUS-REC2024.html)
 
-## Understand the challenge task
+## 2. Understand the challenge task
 
 * [Task description](task2025.html)
 * Additional info:
@@ -24,12 +24,12 @@ nav_order: 3
     <a href="https://ieeexplore.ieee.org/abstract/document/10288201" target="_blank">Paper 3</a>.
     
 
-## [Register](registration2025.html)
+## 3. [Register](registration2025.html)
 
 1. Read the [Challenge Rules & Policies](policies2025.html).
 2. Filling in the registration <a href="TBA" target="_blank">form</a>. [TBA]
 
-##  Download [dataset](data2025.html)
+##  4. Download [dataset](data2025.html)
 
 * <a href="TBA" target="_blank">Training data</a> [TBA]
 * <a href="TBA" target="_blank">Validation data</a> [TBA]
@@ -42,19 +42,19 @@ Additional training and validation data from TUS-REC2024:
 * <a href="https://zenodo.org/doi/10.5281/zenodo.12979481" target="_blank">Validation</a>
 
 
-## Develop your method
+## 5. Develop your method
 
 * Getting started with the <a href="TBA" target="_blank">baseline model</a>. [TBA]
 * Get details about [assessment](assessment2025.html).
 
-## Build Docker image for your method
+## 6. Build Docker image for your method
 
 * [Submission guideline](submission2025.html)
 * <a href="TBA" target="_blank">An example docker</a> [TBA]
 
-## Track the [leaderboard](leaderboard2025.html)
+## 7. Track the [leaderboard](leaderboard2025.html)
 
-## Attend challenge event at MICCAI2025
+## 8. Attend challenge event at MICCAI2025
 
 
 
