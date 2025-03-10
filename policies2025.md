@@ -8,7 +8,7 @@ nav_order: 8
 
 - Submitted methods must be fully automatic.
 - Public and private data are permitted, however their use must be disclosed by participants.
-- Organizers may participate but not eligible for awards and not listed in leaderboard
+- Organizers may participate but not eligible for awards and not listed in leaderboard.
 - All participants must belong to teams, even if a team consists of only one member, and each participant can only be a member of one team.
 
 
@@ -22,7 +22,7 @@ Following the conclusion of the challenge, the training and validation data will
 
 We are planning to submit a challenge paper including the analysis of the dataset and the results. Members of the top teams will be invited as co-authors. The invited teams will be announced after the challenge event and would depend on the number of participating teams. The challenge organizers determine the order of the authors in the joint challenge paper.
 The participating teams can publish their results separately but only after a publication of the joint challenge paper (expected by end of 2026). Once the challenge paper from the organizing team is published, the participants should cite this challenge paper.
-Additionally, we encourage participant teams submit papers about their methodologies for trackerless freehand US reconstruction.
+<!-- Additionally, we encourage participant teams submit papers about their methodologies for trackerless freehand US reconstruction. -->
 
 # Participant Code of Conduct
 

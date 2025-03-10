@@ -16,7 +16,7 @@ For each scan, the performance of a submitted method will be evaluated using two
 - The "landmark reconstruction error" is defined as average Euclidean distance, between the
 ground-truth-reconstructed frame and the prediction-reconstructed frame, averaged over a set of predefined anatomical landmarks in each scan.
 - The "pixel reconstruction error" is defined as the same average Euclidean distance, between the
-ground-truth-reconstructed frame and the prediction-reconstructed frame, averaged over all pixels of all but the first frames in each scan.
+ground-truth-reconstructed frame and the prediction-reconstructed frame, averaged over all pixels of all but the first frame in each scan.
 
 Thus, each submitted method should output four sets of displacement vectors:
 - Global displacement vectors for pixel reconstruction (number of the "GP" vectors = number of pixels in the entire scan, without the first frame)
@@ -47,7 +47,7 @@ numerically challenging solution due to issues such as gimbal lock in using rota
 
 **Justification of the local and global reconstruction errors**
 
-The reconstructed scan from either local level or global level displacement are capable of representing different types of reconstruction performance, such as frame-level reconstruction error and accumulated error of the algorithm (<a href="https://doi.org/10.1109/TBME.2023.3325551" target="_blank">Li. et al. 2023</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-030-59716-0_49" target="_blank">Wein et al. 2020</a>). To streamline the evaluation, other monotonic metrics, such as final drift and Dice overlap, albeit commonly reported in literature (e.g. <a href="https://doi.org/10.1109/TBME.2023.3325551" target="_blank">Li et al 2023</a>), are not included. However, in practical applications, one might choose to reconstruct a sequence of ultrasound frames (as opposed to the entire scan or two adjacent frames, which are represented by local and global errors, respectively), using a pre-optimised sequence length that is most suitable to the downstream application. Without specifying a single target clinical application, these two adopted local and global errors shall represent the range of accuracy between the choices of the reconstruction length.
+The reconstructed scan from either local level or global level displacement are capable of representing different types of reconstruction performance, such as frame-level reconstruction error and accumulated error of the algorithm (<a href="https://doi.org/10.1109/TBME.2023.3325551" target="_blank">Li et al. 2023</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-030-59716-0_49" target="_blank">Wein et al. 2020</a>). To streamline the evaluation, other monotonic metrics, such as final drift and Dice overlap, albeit commonly reported in literature (e.g. <a href="https://doi.org/10.1109/TBME.2023.3325551" target="_blank">Li et al 2023</a>), are not included. However, in practical applications, one might choose to reconstruct a sequence of ultrasound frames (as opposed to the entire scan or two adjacent frames, which are represented by local and global errors, respectively), using a pre-optimised sequence length that is most suitable to the downstream application. Without specifying a single target clinical application, these two adopted local and global errors shall represent the range of accuracy between the choices of the reconstruction length.
 
 
 
@@ -56,8 +56,11 @@ The reconstructed scan from either local level or global level displacement are 
 For each test scan, the four evaluation metrics will be normalised to the range [0, 1] based on the "smallest reconstruction error" and "largest reconstruction error", respectively, using formulas below. The "smallest reconstruction error" is defined as the reconstruction error using the ground truth transformations, which is 0. The "largest reconstruction error" is the reconstruction error using transformations of identity matrix for all frames in a scan.
 
 GPE<sup>* </sup> = (GPE – largest_GPE) / (smallest_GPE - largest_GPE)
+
 GLE<sup>* </sup> = (GLE – largest_GLE) / (smallest_GLE - largest_GLE)
+
 LPE<sup>* </sup> = (LPE – largest_LPE) / (smallest_LPE - largest_LPE)
+
 LLE<sup>* </sup> = (LLE – largest_LLE) / (smallest_LLE - largest_LLE)
 
 where <sup>* </sup> indicates the normalised reconstruction errors. smallest_GPE, smallest_GLE, smallest_LPE, and smallest_LLE denote the smallest reconstruction errors for each evaluation metric, and largest_GPE, largest_GLE, largest_LPE, and largest_LLE denote the largest reconstruction error for each evaluation metric.
@@ -66,7 +69,7 @@ Then, for each team, the final score for each scan will be generated using the f
 
 final score = 0.25GPE<sup>* </sup> + 0.25GLE<sup>* </sup> + 0.25LPE<sup>* </sup> + 0.25LLE<sup>* </sup>
 
-The final score for each team will be averaged over all scans in the test set. The final score within the range of [0,1] will be used to produce the final rank for all the submitted algorithms. The final score will be reported with 3 decimal places and the higher the better. For the submissions with the same final score, the rank will be generated based on the runtime. A smaller runtime will be awarded a higher rank. All the raw values for the defined metrics will also be made available.
+The final score for each team will be averaged over all scans in the test set. The final score within the range of [0,1] will be used to produce the final rank for all the submitted algorithms. The final score will be reported with 3 decimal places and the higher the better.
 
 We also report four other categories of scores, global reconstruction score = 0.5*(1-GPE<sup>* </sup>) + 0.5*(1-GLE<sup>* </sup>), local reconstruction score = 0.5*(1-LPE<sup>* </sup>) + 0.5*(1-LLE<sup>* </sup>), landmark reconstruction score = 0.5*(1-GLE<sup>* </sup>) + 0.5*(1-LLE<sup>* </sup>) and pixel reconstruction score = 0.5*(1-GPE<sup>* </sup>) + 0.5*(1-LPE<sup>* </sup>). These are provided for reference and research interest without formal ranking.
 

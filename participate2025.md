@@ -27,7 +27,7 @@ nav_order: 3
 ## 3. [Register](registration2025.html)
 
 * Read the [Challenge Rules & Policies](policies2025.html).
-* Filling in the registration <a href="TBA" target="_blank">form</a>. [TBA]
+* Fill in the registration <a href="TBA" target="_blank">form</a>. [TBA]
 
 ##  4. Download [dataset](data2025.html)
 
@@ -36,15 +36,15 @@ nav_order: 3
 
 Additional training and validation data from TUS-REC2024:
 
-* <a href="https://zenodo.org/doi/10.5281/zenodo.11178508" target="_blank">Part 1</a>
-* <a href="https://zenodo.org/doi/10.5281/zenodo.11180794" target="_blank">Part 2</a>
-* <a href="https://zenodo.org/doi/10.5281/zenodo.11355499" target="_blank">Part 3</a>
-* <a href="https://zenodo.org/doi/10.5281/zenodo.12979481" target="_blank">Validation</a>
+* <a href="https://zenodo.org/doi/10.5281/zenodo.11178508" target="_blank">Training data (Part 1)</a>
+* <a href="https://zenodo.org/doi/10.5281/zenodo.11180794" target="_blank">Training data (Part 2)</a>
+* <a href="https://zenodo.org/doi/10.5281/zenodo.11355499" target="_blank">Training data (Part 3)</a>
+* <a href="https://zenodo.org/doi/10.5281/zenodo.12979481" target="_blank">Validation data</a>
 
 
 ## 5. Develop your method
 
-* Getting started with the <a href="TBA" target="_blank">baseline model</a>. [TBA]
+* Getting started with the <a href="TBA" target="_blank">baseline code</a>. [TBA]
 * Get details about [assessment](assessment2025.html).
 
 ## 6. Build Docker image for your method
@@ -54,7 +54,7 @@ Additional training and validation data from TUS-REC2024:
 
 ## 7. Track the [leaderboard](leaderboard2025.html)
 
-## 8. Attend challenge event at MICCAI2025
+## 8. Attend challenge event at <a href="https://conferences.miccai.org/2025/en/" target="_blank">MICCAI2025</a>
 
 
 
