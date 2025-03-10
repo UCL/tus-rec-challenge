@@ -1,5 +1,5 @@
 ---
-title: Registration
+title: Participate
 layout: default
 nav_order: 3
 ---
