@@ -11,25 +11,25 @@ nav_order: 3
 
 ## Get details about the TUS-REC2025 Challenge
 
-* [Homepage](index2025.md)
+* [Homepage](index2025.html)
 * <a href="TBA" target="_blank">Challenge description</a> [TBA]
-* Information about past [TUS-REC2024 Challenge](TUS-REC2024.md)
+* Information about past [TUS-REC2024 Challenge](TUS-REC2024.html)
 
 ## Understand the challenge task
 
-* [Task description](task2025.md)
+* [Task description](task2025.html)
 * Additional info:
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-72083-3_64" target="_blank">Paper 1</a>,
     <a href="https://ieeexplore.ieee.org/abstract/document/10230773" target="_blank">Paper 2</a>,
     <a href="https://ieeexplore.ieee.org/abstract/document/10288201" target="_blank">Paper 3</a>.
     
 
-## [Register](registration2025.md)
+## [Register](registration2025.html)
 
 1. Read the [Challenge Rules & Policies](policies2025.html).
 2. Filling in the registration <a href="TBA" target="_blank">form</a>. [TBA]
 
-##  Download [dataset](data2025.md)
+##  Download [dataset](data2025.html)
 
 * <a href="TBA" target="_blank">Training data</a> [TBA]
 * <a href="TBA" target="_blank">Validation data</a> [TBA]
@@ -45,14 +45,14 @@ Additional training and validation data from TUS-REC2024:
 ## Develop your method
 
 * Getting started with the <a href="TBA" target="_blank">baseline model</a>. [TBA]
-* Get details about [assessment](assessment2025.md).
+* Get details about [assessment](assessment2025.html).
 
 ## Build Docker image for your method
 
-* [Submission guideline](submission2025.md)
+* [Submission guideline](submission2025.html)
 * <a href="TBA" target="_blank">An example docker</a> [TBA]
 
-## Track the [leaderboard](leaderboard2025.md)
+## Track the [leaderboard](leaderboard2025.html)
 
 ## Attend challenge event at MICCAI2025
 
