@@ -10,7 +10,11 @@ logo: "/img2025/logo.png"
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/img2025/logo.png"
 
-math: true
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+# math: true
 color_scheme: light
 
 callouts_level: quiet # or loud
