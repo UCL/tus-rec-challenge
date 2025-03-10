@@ -13,7 +13,7 @@ nav_order: 3
 
 * [Homepage](index2025.html)
 * <a href="TBA" target="_blank">Challenge description</a> [TBA]
-* Information about past [TUS-REC2024 Challenge](TUS-REC2024.html)
+* Information about past [TUS-REC2024 Challenge](TUS-REC2024/TUS-REC2024.html)
 
 ## 2. Understand the challenge task
 
@@ -26,8 +26,8 @@ nav_order: 3
 
 ## 3. [Register](registration2025.html)
 
-1. Read the [Challenge Rules & Policies](policies2025.html).
-2. Filling in the registration <a href="TBA" target="_blank">form</a>. [TBA]
+* Read the [Challenge Rules & Policies](policies2025.html).
+* Filling in the registration <a href="TBA" target="_blank">form</a>. [TBA]
 
 ##  4. Download [dataset](data2025.html)
 
