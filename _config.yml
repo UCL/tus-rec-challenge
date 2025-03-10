@@ -1,6 +1,7 @@
 title: TUS-REC
 description: Website for the TUS-REC MICCAI Challenge.
 theme: just-the-docs
+  math: true
 
 url: https://github-pages.ucl.ac.uk/tus-rec-challenge/
 
@@ -10,14 +11,14 @@ logo: "/img2025/logo.png"
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/img2025/logo.png"
 
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter_opts:
-    disable: true
+# markdown: kramdown
+# kramdown:
+#   math_engine: mathjax
+#   syntax_highlighter_opts:
+#     disable: true
 
 
-math: true
+
 color_scheme: light
 
 callouts_level: quiet # or loud
