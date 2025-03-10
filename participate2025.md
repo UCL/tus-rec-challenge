@@ -6,7 +6,7 @@ nav_order: 3
 
 # How to Participate in the TUS-REC2025 Challenge
 
-1. TOC
+- TOC
 {:toc}
 
 ## Get details about the TUS-REC2025 Challenge
