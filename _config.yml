@@ -6,10 +6,10 @@ math: true
 url: https://github-pages.ucl.ac.uk/tus-rec-challenge/
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/img2025/logo.png"
+logo: "/img/logo.png"
 
 # Set a path/url to a favicon that will be displayed by the browser
-favicon_ico: "/img2025/logo.png"
+favicon_ico: "/img/logo.png"
 
 # markdown: kramdown
 # kramdown:
