@@ -10,7 +10,7 @@ nav_order: 1
 # TUS-REC Challenge 2025
 
 <div align=center>
-  <a href="img2025/TUS-REC%20CHALLENGE%20(MICCAI%202024).pdf" target="_blank"><img style="padding: 10px;" src="img2025/logo.png" width=200px></a>
+  <a href="img/TUS-REC%20CHALLENGE%20(MICCAI%202024).pdf" target="_blank"><img style="padding: 10px;" src="img/logo.png" width=200px></a>
 </div >
 
 **Trackerless 3D Freehand Ultrasound Reconstruction (TUS-REC) Challenge**
@@ -48,11 +48,11 @@ The Challenge will take place on Sep. 23, 2025 during the <a href="TBA" target="
 
 This challenge aims to estimate the transformations among US frames, such that the entire US scan can be reconstructed in 3D space, both for establishing one of the first benchmarks for 3D US reconstruction on the introduced new scan protocol and paving the way from experimental volunteer studies to potential clinical applications for this challenging task.
 
-For detailed information, please refer to [task description](task2025.html), [dataset](data2025.html), [assessment](assessment2025.html), and [submission process](submission2025.html).
+For detailed information, please refer to [task description](task.html), [dataset](data.html), [assessment](assessment.html), and [submission process](submission.html).
 
 ## Awards
 
-The results from all participants will be made publicly available on leaderboard unless the submitted dockers incurred errors during the evaluation process. Teams are allowed to make multiple distinct submissions (but must ensure they are not merely simple variations in hyperparameter values). The leaderboard will be accessible for public viewing [here](leaderboard2025.html).
+The results from all participants will be made publicly available on leaderboard unless the submitted dockers incurred errors during the evaluation process. Teams are allowed to make multiple distinct submissions (but must ensure they are not merely simple variations in hyperparameter values). The leaderboard will be accessible for public viewing [here](leaderboard.html).
 
 - The first-place and runner-up achievers will receive additional certificates.
 - Participants who successfully participated the challenge will be awarded certificates of participation.
@@ -78,8 +78,8 @@ Challenge Contact E-Mail: [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk)
 ## Sponsors
 
 <div >
-  <a href="https://www.ucl.ac.uk/medical-image-computing" target="_blank"><img style="padding: 10px;" src="img2025/UCL-Hawkes-Institute-BLACK.jpg" width=140px></a>
-  <a href="https://conferences.miccai.org/2025/en/" target="_blank"><img style="padding: 10px;" src="img2025/miccai2025-logo.png" width=130px></a>
-  <a href="https://miccai-ultrasound.github.io/#/asmus24" target="_blank"><img style="padding: 10px;" src="img2025/asmus.png" width=115px></a>
-  <a href="https://miccai.org/index.php/special-interest-groups/sig/" target="_blank"><img style="padding: 10px;" src="img2025/SIGMUS.png" width=220px></a>
+  <a href="https://www.ucl.ac.uk/medical-image-computing" target="_blank"><img style="padding: 10px;" src="img/UCL-Hawkes-Institute-BLACK.jpg" width=140px></a>
+  <a href="https://conferences.miccai.org/2025/en/" target="_blank"><img style="padding: 10px;" src="img/miccai2025-logo.png" width=130px></a>
+  <a href="https://miccai-ultrasound.github.io/#/asmus24" target="_blank"><img style="padding: 10px;" src="img/asmus.png" width=115px></a>
+  <a href="https://miccai.org/index.php/special-interest-groups/sig/" target="_blank"><img style="padding: 10px;" src="img/SIGMUS.png" width=220px></a>
 </div>

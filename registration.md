@@ -6,7 +6,7 @@ nav_order: 2
 
 # Registration
 
-Prior to participating the challenge, we kindly request all participants to familiarize themselves with our [participation and data use policies, along with our code of conduct](policies2025.html).
+Prior to participating the challenge, we kindly request all participants to familiarize themselves with our [participation and data use policies, along with our code of conduct](policies.html).
 
 We ask participants to formally register by filling in this <a href="TBA" target="_blank">form</a>. [TBA]
 

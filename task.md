@@ -12,7 +12,7 @@ The aim of Freehand US reconstruction is to estimate the transformation between 
   <a 
   target="_blank"><img 
   style="padding: 10px;" 
-  src="img2025/rec.png" 
+  src="img/rec.png" 
   width=400px
   id="figure1">
   
@@ -36,7 +36,7 @@ For an US scan $ \mathcal{S}$, image sequences comprising $M$ 2D frames can be s
   <a 
   target="_blank"><img 
   style="padding: 10px;" 
-  src="img2025/coordinate_system.png" 
+  src="img/coordinate_system.png" 
   width=400px
   id="figure2">
   
@@ -84,7 +84,7 @@ $$
 
 
 The algorithm is expected to take the entire scan as input and output two different sets of
-transformation-representing displacement vectors as results, a set of displacement vectors on individual pixels and a set of displacement vectors on provided landmarks. There is no requirement on how the algorithm is designed internally, for example, whether it is learning-based method; frame-, sequence- or scan-based processing; or, rigid-, affine- or nonrigid transformation assumptions. Details are explained further in [assessment](assessment2025.html).
+transformation-representing displacement vectors as results, a set of displacement vectors on individual pixels and a set of displacement vectors on provided landmarks. There is no requirement on how the algorithm is designed internally, for example, whether it is learning-based method; frame-, sequence- or scan-based processing; or, rigid-, affine- or nonrigid transformation assumptions. Details are explained further in [assessment](assessment.html).
 
 Participant teams are expected to make use of the sequential data and potentially make knowledge transfer from other domains such as computer vision and computer-assisted intervention. The participant teams are expected to take US scan as input and output two sets of pixel displacement vectors, indicating the transformation to reference frame, i.e., first frame in this task. The evaluation process will take the generated displacement vectors from their dockerized models, and produce the final accuracy score to represent the reconstruction performance, at local and global levels, representing different clinical application of the reconstruction methods.
 

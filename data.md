@@ -6,7 +6,23 @@ nav_order: 5
 
 # The Data set
 
-The data in this challenge is acquired from both left and right forearms of 85 volunteers, acquired at University College London, London, U.K, with a racial-, gender-, age-diverse subject cohort. No specific exclusion criteria as long as the participants do not have allergies or skin conditions which may be exacerbated by US gel. All scanned forearms are in good health. The data is randomly split into training, validation, and test sets of 50, 3, and 32 subjects (100, 6, 64 scans; ~162k, ~9k, ~89k frames), respectively.
+The data in this challenge is acquired from both left and right forearms of 85 volunteers, acquired at University College London, London, U.K, with a racial-, gender-, age-diverse subject cohort. [Fig. 3](#data) shows the equipment setting during acquisition. No specific exclusion criteria as long as the participants do not have allergies or skin conditions which may be exacerbated by US gel. All scanned forearms are in good health. The data is randomly split into training, validation, and test sets of 50, 3, and 32 subjects (100, 6, 64 scans; ~162k, ~9k, ~89k frames), respectively.
+
+<div align=center>
+  <a 
+  target="_blank"><img 
+  style="padding: 10px;" 
+  src="img/data_acqusition.png" 
+  width=400px
+  id="figure2">
+  
+</a>
+
+</div >
+<div align=center>
+Fig. 3. Freehand US data acquisition system.
+</div>
+
 
 <!-- **The train data is split into three parts: [Part 1](https://zenodo.org/doi/10.5281/zenodo.11178508), [Part 2](https://zenodo.org/doi/10.5281/zenodo.11180794), and [Part 3](https://zenodo.org/doi/10.5281/zenodo.11355499).** -->
 
