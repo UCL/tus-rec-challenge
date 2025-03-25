@@ -53,6 +53,8 @@ The reconstructed scan from either local level or global level displacement are 
 
 ## Ranking method
 
+The ranking follows the “aggregate then rank” strategy proposed by <a href="https://www.nature.com/articles/s41467-018-07619-7" target="_blank">Maier-Hein et al. 2018</a>. 
+
 For each test scan, the four evaluation metrics will be normalised to the range [0, 1] based on the "smallest reconstruction error" and "largest reconstruction error", respectively, using formulas below. The "smallest reconstruction error" is defined as the reconstruction error using the ground truth transformations, which is 0. The "largest reconstruction error" is the reconstruction error using transformations of identity matrix for all frames in a scan.
 
 GPE<sup>* </sup> = (GPE – largest_GPE) / (smallest_GPE - largest_GPE)
@@ -73,7 +75,7 @@ The final score for each team will be averaged over all scans in the test set. T
 
 We also report four other categories of scores, global reconstruction score = 0.5*(1-GPE<sup>* </sup>) + 0.5*(1-GLE<sup>* </sup>), local reconstruction score = 0.5*(1-LPE<sup>* </sup>) + 0.5*(1-LLE<sup>* </sup>), landmark reconstruction score = 0.5*(1-GLE<sup>* </sup>) + 0.5*(1-LLE<sup>* </sup>) and pixel reconstruction score = 0.5*(1-GPE<sup>* </sup>) + 0.5*(1-LPE<sup>* </sup>). These are provided for reference and research interest without formal ranking.
 
-> **_NOTE:_** The minimum score (0) will be given to any case where the code cannot run or the metric cannot be computed successfully. For the submissions with the same final score, the rank will be generated based on the runtime. A smaller runtime will be awarded a higher rank. All the raw values for the defined metrics will also be made available.
+> **_NOTE:_** The minimum score (0) will be given to any case where the code cannot run or the metric cannot be computed successfully. For the submissions with the same final score, the rank will be generated based on the runtime. A smaller runtime will be awarded a higher rank. A maximum runtime (6 hours for all scans in the test set) will be imposed for challenge submissions, to encourage usability in the clinical applications. All the raw values for the defined metrics will also be made available.
 
 <!-- A maximum runtime will be imposed for challenge submissions, benchmarked as the speed of our baseline methods, to encourage usability in the clinical applications.  -->
 
