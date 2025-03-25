@@ -31,7 +31,7 @@ Fig. 1. An illustration of freehand US reconstruction.
 </figure> -->
 
 
-For an US scan $ \mathcal{S}$, image sequences comprising $M$ 2D frames can be sampled as $S=\{I_m\}, m=1,2,...,M$, where $S \subseteq {\mathcal{S}}$ and $m$ represents consecutively increasing time-steps at which the frames are acquired. [Fig. 2](#figure2) shows the relationship among three coordinate systems: the image coordinate system, the tracker tool coordinate system, and the camera coordinate system.  
+For an US scan $$\mathcal{S}$$, image sequences comprising $M$ 2D frames can be sampled as $S=\{I_m\}, m=1,2,...,M$, where $S \subseteq {\mathcal{S}}$ and $m$ represents consecutively increasing time-steps at which the frames are acquired. [Fig. 2](#figure2) shows the relationship among three coordinate systems: the image coordinate system, the tracker tool coordinate system, and the camera coordinate system.  
 <div align=center>
   <a 
   target="_blank"><img 
