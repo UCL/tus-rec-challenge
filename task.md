@@ -31,7 +31,7 @@ Fig. 1. An illustration of freehand US reconstruction.
 </figure> -->
 
 
-For an US scan $$\mathcal{S}$$, image sequences comprising $M$ 2D frames can be sampled as $S=\{I_m\}, m=1,2,...,M$, where $S \subseteq {\mathcal{S}}$ and $m$ represents consecutively increasing time-steps at which the frames are acquired. [Fig. 2](#figure2) shows the relationship among three coordinate systems: the image coordinate system, the tracker tool coordinate system, and the camera coordinate system.  
+For an US scan $$\mathcal{S}$$, image sequences comprising $$M$$ 2D frames can be sampled as $$S=\{I_m\}, m=1,2,...,M$$, where $$S \subseteq {\mathcal{S}}$$ and $$m$$ represents consecutively increasing time-steps at which the frames are acquired. [Fig. 2](#figure2) shows the relationship among three coordinate systems: the image coordinate system, the tracker tool coordinate system, and the camera coordinate system.  
 <div align=center>
   <a 
   target="_blank"><img 
@@ -48,19 +48,21 @@ Fig. 2. The relationship among three coordinate systems: the image coordinate sy
 </div>
 
 
-The rigid transformation from the $i^{th}$ frame to the $j^{th}$ frame, $T_{j\leftarrow i}$, can be obtained using [Eq. 1](#transformation), where $T_{j\leftarrow i}^{tool}$ denotes the transformation between $i^{th}$ tacker tool to the $j^{th}$ track tool, and $T_{calib}$ represents the calibration matrix.
+The rigid transformation from the $$i^{th}$$ frame to the $$j^{th}$$ frame, $$T_{j\leftarrow i}$$, can be obtained using [Eq. 1](#transformation), where $$T_{j\leftarrow i}^{tool}$$ denotes the transformation between $$i^{th}$$ tacker tool to the $$j^{th}$$ track tool, and $$T_{calib}$$ represents the calibration matrix.
+
 <a id="transformation"></a>
 $$
 T_{j\leftarrow i}= T_{j\leftarrow i}^{tool} \times T_{calib}, 1 \leq i<j \leq M
 $$
 
-In general, prior studies have formulated freehand US reconstruction as the estimation of the transformation between two frames in an US sequence. This estimation relies on a function $f$, which serves as the core of freehand US reconstruction, as expressed in [Eq. 2](#freehandUS):  
+In general, prior studies have formulated freehand US reconstruction as the estimation of the transformation between two frames in an US sequence. This estimation relies on a function $f$, which serves as the core of freehand US reconstruction, as expressed in [Eq. 2](#freehandUS): 
+
 <a id="freehandUS"></a>
 $$
 T_{j\leftarrow i} \approx f(I_i, I_j)
 $$
 
-Typically, adjacent frames are used in [Eq. 2](#freehandUS), where $j = i+1$. The transformation from $i^{th}$ frame to the first frame $T_i$ can be computed by recursively multiplying the previously estimated relative transformations, as shown in [Eq. 3](#chain-multiplying):
+Typically, adjacent frames are used in [Eq. 2](#freehandUS), where $$j = i+1$$. The transformation from $$i^{th}$$ frame to the first frame $$T_i$$ can be computed by recursively multiplying the previously estimated relative transformations, as shown in [Eq. 3](#chain-multiplying):
 
 <a id="chain-multiplying"></a>
 $$
@@ -69,8 +71,9 @@ $$
 
 Moreover, [Eq. 3](#chain-multiplying) demonstrates that estimation errors can propagate and accumulate throughout the chain, ultimately resulting in trajectory drift.
 
-Reconstructing the 3D US volume and the trajectory of the US frames requires determining the position of each frame. Since freehand US systems lack an absolute coordinate system, the first frame is chosen as the reference with $T_1=I$, where $I$ is the identity matrix. As a result, only the relative transformations with respect to the first frame are needed.
-For any pixel $p$ in $i^{th}$ frame, the coordinate in camera coordinate system $Cor_p$, with respect to the first frame, can be obtained using [Eq. 4](#coordinate).
+Reconstructing the 3D US volume and the trajectory of the US frames requires determining the position of each frame. Since freehand US systems lack an absolute coordinate system, the first frame is chosen as the reference with $$T_1=I$$, where $$I$$ is the identity matrix. As a result, only the relative transformations with respect to the first frame are needed.
+For any pixel $p$ in $$i^{th}$$ frame, the coordinate in camera coordinate system $Cor_p$, with respect to the first frame, can be obtained using [Eq. 4](#coordinate).
+
 <a id="coordinate"></a>
 $$
 Cor_p = T_i \times I_p
