@@ -55,12 +55,12 @@ $$
 T_{j\leftarrow i}= T_{j\leftarrow i}^{tool} \times T_{calib}, 1 \leq i<j \leq M
 $$
 
-In general, prior studies have formulated freehand US reconstruction as the estimation of the transformation between two frames in an US sequence. This estimation relies on a function $f$, which serves as the core of freehand US reconstruction, as expressed in [Eq. 2](#freehandUS): 
+In general, prior studies have formulated freehand US reconstruction as the estimation of the transformation between two frames in an US sequence. This estimation relies on a function $$f$$, which serves as the core of freehand US reconstruction, as expressed in [Eq. 2](#freehandUS): 
 
 <a id="freehandUS"></a>
 $$
 \begin{equation}
-T_{j\leftarrow i} \approx f(I_i, I_j)
+T_{j\leftarrow i} \approx f(I_i, I_j) \tag{1}
 \end{equation}
 $$
 
