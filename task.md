@@ -59,7 +59,7 @@ In general, prior studies have formulated freehand US reconstruction as the esti
 
 <a id="freehandUS"></a>
 $$
-T_{j\leftarrow i} \approx f(I_i, I_j)
+T_{j\leftarrow i} \approx f(I_i, I_j) \tag{1}
 $$
 
 Typically, adjacent frames are used in [Eq. 2](#freehandUS), where $$j = i+1$$. The transformation from $$i^{th}$$ frame to the first frame $$T_i$$ can be computed by recursively multiplying the previously estimated relative transformations, as shown in [Eq. 3](#chain-multiplying):
@@ -72,7 +72,7 @@ $$
 Moreover, [Eq. 3](#chain-multiplying) demonstrates that estimation errors can propagate and accumulate throughout the chain, ultimately resulting in trajectory drift.
 
 Reconstructing the 3D US volume and the trajectory of the US frames requires determining the position of each frame. Since freehand US systems lack an absolute coordinate system, the first frame is chosen as the reference with $$T_1=I$$, where $$I$$ is the identity matrix. As a result, only the relative transformations with respect to the first frame are needed.
-For any pixel $p$ in $$i^{th}$$ frame, the coordinate in camera coordinate system $Cor_p$, with respect to the first frame, can be obtained using [Eq. 4](#coordinate).
+For any pixel $$p$$ in $$i^{th}$$ frame, the coordinate in camera coordinate system $$Cor_p$$, with respect to the first frame, can be obtained using [Eq. 4](#coordinate).
 
 <a id="coordinate"></a>
 $$
