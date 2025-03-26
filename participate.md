@@ -21,7 +21,8 @@ nav_order: 3
 * Additional info:
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-72083-3_64" target="_blank">Paper 1</a>,
     <a href="https://ieeexplore.ieee.org/abstract/document/10230773" target="_blank">Paper 2</a>,
-    <a href="https://ieeexplore.ieee.org/abstract/document/10288201" target="_blank">Paper 3</a>.
+    <a href="https://ieeexplore.ieee.org/abstract/document/10288201" target="_blank">Paper 3</a>,
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841518303712?via%3Dihub" target="_blank">Paper 4</a>.
     
 
 ## 3. [Register](registration.html)

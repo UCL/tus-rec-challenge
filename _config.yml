@@ -18,6 +18,8 @@ favicon_ico: "/img/logo.png"
 #     disable: true
 
 
+math: mathjax
+layout: mathjax
 
 color_scheme: light
 
