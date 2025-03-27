@@ -6,7 +6,7 @@ nav_order: 4
 
 # Freehand US Reconstruction
 
-The aim of Freehand US reconstruction is to estimate the transformation between any pair of US frames in a US scan without any external tracker, and thus reconstruct 2D Ultrasound (US) images into a 3D volume (see [Fig. 1](#figure1)).
+The aim of Freehand US reconstruction is to estimate the transformation between any pair of US frames in a US scan without any external tracker, and thus reconstruct 2D US images into a 3D volume (see [Fig. 1](#figure1)).
 
 <div align=center>
   <a 
@@ -53,7 +53,7 @@ The rigid transformation from the $$i^{th}$$ frame to the $$j^{th}$$ frame, $$T_
 <a id="transformation"></a>
 $$
 \begin{equation}
-T_{j\leftarrow i}= T_{j\leftarrow i}^{tool} \times T_{calib}, 1 \leq i<j \leq M \tag{1}
+T_{j\leftarrow i}= T_{calib}^{-1} \times T_{j\leftarrow i}^{tool} \times T_{calib}, 1 \leq i<j \leq M \tag{1}
 \end{equation}
 $$
 
