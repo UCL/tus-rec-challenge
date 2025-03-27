@@ -31,6 +31,7 @@ nav_order: 3
 * Fill in the registration <a href="TBA" target="_blank">form</a>. [TBA]
 
 ##  4. Download [dataset](data.html)
+We will send the links of data to you once we receive your registration information.
 
 * <a href="TBA" target="_blank">Training data</a> [TBA]
 * <a href="TBA" target="_blank">Validation data</a> [TBA]

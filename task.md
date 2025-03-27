@@ -48,12 +48,12 @@ Fig. 2. The relationship among three coordinate systems: the image coordinate sy
 </div>
 
 
-The rigid transformation from the $$i^{th}$$ frame to the $$j^{th}$$ frame, $$T_{j\leftarrow i}$$, can be obtained using [Eq. 1](#transformation), where $$T_{j\leftarrow i}^{tool}$$ denotes the transformation between $$i^{th}$$ tacker tool to the $$j^{th}$$ track tool, and $$T_{calib}$$ represents the calibration matrix.
+The rigid transformation from the $$i^{th}$$ frame to the $$j^{th}$$ frame, $$T_{j\leftarrow i}$$, can be obtained using [Eq. 1](#transformation), where $$T_{j\leftarrow i}^{tool}$$ denotes the transformation between $$i^{th}$$ tacker tool to the $$j^{th}$$ track tool. $$T_{scale}$$ and $$T_{rotation}$$ represent the scaling from pixel to mm and spatial calibration from image coordinate system to tracking tool coordinate system.
 
 <a id="transformation"></a>
 $$
 \begin{equation}
-T_{j\leftarrow i}= T_{calib}^{-1} \times T_{j\leftarrow i}^{tool} \times T_{calib}, 1 \leq i<j \leq M \tag{1}
+T_{j\leftarrow i}= T_{rotation}^{-1} \times T_{j\leftarrow i}^{tool} \times T_{rotation} \times T_{scale}, 1 \leq i<j \leq M \tag{1}
 \end{equation}
 $$
 
@@ -71,14 +71,16 @@ Typically, adjacent frames are used in [Eq. 2](#freehandUS), where $$j = i+1$$. 
 <a id="chain-multiplying"></a>
 $$
 \begin{equation}
-T_i=T_{i-1\leftarrow i} \times \cdots \times T_{2\leftarrow 3} \times T_{1\leftarrow 2} \times T_{1} \tag{3}
+T_i=  T_{1}  \times T_{1\leftarrow 2} \times T_{2\leftarrow 3} \cdots T_{i-1\leftarrow i} \tag{3}
 \end{equation}
 $$
 
 Moreover, [Eq. 3](#chain-multiplying) demonstrates that estimation errors can propagate and accumulate throughout the chain, ultimately resulting in trajectory drift.
 
-Reconstructing the 3D US volume and the trajectory of the US frames requires determining the position of each frame. Since freehand US systems lack an absolute coordinate system, the first frame is chosen as the reference with $$T_1=I$$, where $$I$$ is the identity matrix. As a result, only the relative transformations with respect to the first frame are needed.
-For any pixel $$p$$ in $$i^{th}$$ frame, the coordinate in camera coordinate system $$Cor_p$$, with respect to the first frame, can be obtained using [Eq. 4](#coordinate).
+Reconstructing the 3D US volume and the trajectory of the US frames requires determining the position of each frame. 
+<!-- Since freehand US systems lack an absolute coordinate system, t -->
+The first frame is chosen as the reference with $$T_1=I$$, where $$I$$ is the identity matrix. As a result, only the relative transformations with respect to the first frame are needed.
+For any pixel $$p$$ in $$i^{th}$$ frame, the coordinate in image coordinate system (in mm) $$Cor_p$$, with respect to the first frame, can be obtained using [Eq. 4](#coordinate).
 
 <a id="coordinate"></a>
 $$
@@ -101,9 +103,9 @@ Participant teams are expected to make use of the sequential data and potentiall
 
 We provide a baseline algorithm adapted from <a href="https://doi.org/10.1109/TBME.2023.3325551" target="_blank">Li et al. 2023</a> in this <a href="TBA" target="_blank">repo</a>. [TBA]
 
-# Application scenarios
+<!-- # Application scenarios
 
-Trackless 3D freehand US reconstruction will be useful in clinical practice where 3D visualisation is required but external trackers are not allowed or inaccessible. By estimating the relative transformations among US frames using solely 2D US images, the 3D position for each US frame could be calculated and thus the entire US scan could be reconstructed without using any information from external trackers.
+Trackless 3D freehand US reconstruction will be useful in clinical practice where 3D visualisation is required but external trackers are not allowed or inaccessible. By estimating the relative transformations among US frames using solely 2D US images, the 3D position for each US frame could be calculated and thus the entire US scan could be reconstructed without using any information from external trackers. -->
 
 # Difference between TUS-REC2025 and TUS-REC2024
 
