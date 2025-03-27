@@ -4,7 +4,7 @@ layout: default
 nav_order: 4
 ---
 
-# Freehand US Reconstruction
+# Background: Freehand US Reconstruction
 
 The aim of Freehand US reconstruction is to estimate the transformation between any pair of US frames in a US scan without any external tracker, and thus reconstruct 2D US images into a 3D volume (see [Fig. 1](#figure1)).
 
@@ -71,7 +71,7 @@ Typically, adjacent frames are used in [Eq. 2](#freehandUS), where $$j = i+1$$. 
 <a id="chain-multiplying"></a>
 $$
 \begin{equation}
-T_i=T_{i\leftarrow i-1} \times \cdots \times T_{3\leftarrow 2} \times T_{2\leftarrow 1} \times T_{1} \tag{3}
+T_i=T_{i-1\leftarrow i} \times \cdots \times T_{2\leftarrow 3} \times T_{1\leftarrow 2} \times T_{1} \tag{3}
 \end{equation}
 $$
 
