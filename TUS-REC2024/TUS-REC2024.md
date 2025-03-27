@@ -6,5 +6,5 @@ has_toc: True
 nav_order: 1
 ---
 
-# Trackerless 3D Freehand Ultrasound Reconstruction (TUS-REC) Challenge 2024
+# Trackerless 3D Freehand Ultrasound Reconstruction Challenge 2024 (TUS-REC2024)
 
