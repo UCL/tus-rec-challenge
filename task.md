@@ -52,7 +52,9 @@ The rigid transformation from the $$i^{th}$$ frame to the $$j^{th}$$ frame, $$T_
 
 <a id="transformation"></a>
 $$
+\begin{equation}
 T_{j\leftarrow i}= T_{j\leftarrow i}^{tool} \times T_{calib}, 1 \leq i<j \leq M \tag{1}
+\end{equation}
 $$
 
 In general, prior studies have formulated freehand US reconstruction as the estimation of the transformation between two frames in an US sequence. This estimation relies on a function $$f$$, which serves as the core of freehand US reconstruction, as expressed in [Eq. 2](#freehandUS): 
@@ -68,7 +70,9 @@ Typically, adjacent frames are used in [Eq. 2](#freehandUS), where $$j = i+1$$. 
 
 <a id="chain-multiplying"></a>
 $$
+\begin{equation}
 T_i=T_{i\leftarrow i-1} \times \cdots \times T_{3\leftarrow 2} \times T_{2\leftarrow 1} \times T_{1} \tag{3}
+\end{equation}
 $$
 
 Moreover, [Eq. 3](#chain-multiplying) demonstrates that estimation errors can propagate and accumulate throughout the chain, ultimately resulting in trajectory drift.
@@ -78,7 +82,9 @@ For any pixel $$p$$ in $$i^{th}$$ frame, the coordinate in camera coordinate sys
 
 <a id="coordinate"></a>
 $$
+\begin{equation}
 Cor_p = T_i \times I_p \tag{4}
+\end{equation}
 $$
 <!-- where $T_i$ denotes the transformation from $i^{th}$ frame to the first frame. -->
 
