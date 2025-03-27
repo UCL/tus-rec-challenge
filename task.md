@@ -71,7 +71,7 @@ Typically, adjacent frames are used in [Eq. 2](#freehandUS), where $$j = i+1$$. 
 <a id="chain-multiplying"></a>
 $$
 \begin{equation}
-T_i=  T_{1}  \times T_{1\leftarrow 2} \times T_{2\leftarrow 3} \cdots T_{i-1\leftarrow i} \tag{3}
+T_i= T_{1\leftarrow 2} \times T_{2\leftarrow 3} \cdots T_{i-1\leftarrow i} \tag{3}
 \end{equation}
 $$
 
@@ -79,7 +79,7 @@ Moreover, [Eq. 3](#chain-multiplying) demonstrates that estimation errors can pr
 
 Reconstructing the 3D US volume and the trajectory of the US frames requires determining the position of each frame. 
 <!-- Since freehand US systems lack an absolute coordinate system, t -->
-The first frame is chosen as the reference with $$T_1=I$$, where $$I$$ is the identity matrix. As a result, only the relative transformations with respect to the first frame are needed.
+The first frame is chosen as the reference. As a result, only the relative transformations with respect to the first frame are needed.
 For any pixel $$p$$ in $$i^{th}$$ frame, the coordinate in image coordinate system (in mm) $$Cor_p$$, with respect to the first frame, can be obtained using [Eq. 4](#coordinate).
 
 <a id="coordinate"></a>
