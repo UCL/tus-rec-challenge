@@ -80,6 +80,6 @@ Challenge Contact E-Mail: [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk)
 <div >
   <a href="http://ucl.ac.uk/hawkes-institute/" target="_blank"><img style="padding: 10px;" src="img/UCL-Hawkes-Institute-BLACK.jpg" width=140px></a>
   <a href="https://conferences.miccai.org/2025/en/" target="_blank"><img style="padding: 10px;" src="img/miccai2025-logo.png" width=130px></a>
-  <a href="https://miccai-ultrasound.github.io/#/asmus24" target="_blank"><img style="padding: 10px;" src="img/asmus.png" width=115px></a>
+  <a href="https://miccai-ultrasound.github.io/#/asmus25" target="_blank"><img style="padding: 10px;" src="img/asmus.png" width=115px></a>
   <a href="https://miccai.org/index.php/special-interest-groups/sig/" target="_blank"><img style="padding: 10px;" src="img/SIGMUS.png" width=220px></a>
 </div>

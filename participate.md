@@ -45,7 +45,7 @@ Additional training and validation data from TUS-REC2024:
 
 ## 5. Develop your method
 
-* Getting started with the <a href="TBA" target="_blank">baseline code</a>. [TBA]
+* Get started with the <a href="TBA" target="_blank">baseline code</a>. [TBA]
 * Get details about [assessment](assessment.html).
 
 ## 6. Build Docker image for your method
