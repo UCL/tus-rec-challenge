@@ -64,7 +64,7 @@ Freehand_US_data_train_2025/
         ├── ...
 
     ├── calib_matrix.csv # calibration matrix
-    ├── dataset_keys.h5 # the paths to all the scans of the data set
+    # ├── dataset_keys.h5 # the paths to all the scans of the data set
 
 ```
 
@@ -80,7 +80,7 @@ Freehand_US_data_train_2025/
 
 * Calibration matrix: The calibration matrix was obtained using a pinhead-based method. The `scaling_from_pixel_to_mm` and `spatial_calibration_from_image_coordinate_system_to_tracking_tool_coordinate_system` are provided in the “calib_matrix.csv”. 
 
-* `dataset_keys.h5`: stores the paths to all the scans of the data set. Keys in `dataset_keys.h5` denotes all the available scans in the training data, in a format of “sub%03d__%s” where %03d denotes folder name, and %s denotes the scan name. For example, “sub010__LH_rotating” means the scan in folder “010”, with file name of `LH_rotating.h5`.
+<!-- * `dataset_keys.h5`: stores the paths to all the scans of the data set. Keys in `dataset_keys.h5` denotes all the available scans in the training data, in a format of “sub%03d__%s” where %03d denotes folder name, and %s denotes the scan name. For example, “sub010__LH_rotating” means the scan in folder “010”, with file name of `LH_rotating.h5`. -->
 
 * Additional training and validation data (optional) come from previous challenge (TUS-REC2024), on the same cohort but with different scanning protocols. The patient IDs are consistent across training datasets of TUS-REC2024 and TUS-REC2025 to ensure participants can properly account for data distribution when incorporating TUS-REC2024 data.
     * <a href="https://zenodo.org/doi/10.5281/zenodo.11178508" target="_blank">Training data (Part 1)</a>
