@@ -73,7 +73,7 @@ final score = 0.25GPE<sup>* </sup> + 0.25GLE<sup>* </sup> + 0.25LPE<sup>* </sup>
 
 The final score for each team will be averaged over all scans in the test set. The final score within the range of [0,1] will be used to produce the final rank for all the submitted algorithms. The final score will be reported with 3 decimal places and the higher the better.
 
-We also report four other categories of scores, global reconstruction score = 0.5*GPE<sup>* </sup> + 0.5*GLE<sup>* </sup>, local reconstruction score = 0.5*LPE<sup>* </sup> + 0.5*LLE<sup>* </sup>, landmark reconstruction score = 0.5*GLE<sup>* </sup> + 0.5*LLE<sup>* </sup> and pixel reconstruction score = 0.5*GPE<sup>* </sup> + 0.5*LPE<sup>* </sup>. These are provided for reference and research interest without formal ranking.
+We also report four other categories of scores, global reconstruction score = 0.5GPE<sup>* </sup> + 0.5GLE<sup>* </sup>, local reconstruction score = 0.5LPE<sup>* </sup> + 0.5LLE<sup>* </sup>, landmark reconstruction score = 0.5GLE<sup>* </sup> + 0.5LLE<sup>* </sup> and pixel reconstruction score = 0.5GPE<sup>* </sup> + 0.5LPE<sup>* </sup>. These are provided for reference and research interest without formal ranking.
 
 > **_NOTE:_** The minimum score (0) will be given to any case where the code cannot run or the metric cannot be computed successfully. For the submissions with the same final score, the rank will be generated based on the runtime. A smaller runtime will be awarded a higher rank. A maximum runtime (6 hours for all scans in the test set) will be imposed for challenge submissions, to encourage usability in the clinical applications. All the raw values for the defined metrics will also be made available.
 
