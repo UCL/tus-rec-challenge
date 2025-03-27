@@ -65,7 +65,7 @@ Overall score = 0.25*(1-GPE<sup>* </sup>) + 0.25*(1-GLE<sup>* </sup>) + 0.25*(1-
 
 where * indicates the normalised reconstruction errors. The "overall score" within the range of [0,1] will be used to produce the final rank for all the submitted algorithms. The final score will be reported with 3 decimal places and the higher the better. 
 
-We also report four other categories of scores, global reconstruction score = 0.5*GPE<sup>* </sup> + 0.5*GLE<sup>* </sup>, local reconstruction score = 0.5*LPE<sup>* </sup> + 0.5*LLE<sup>* </sup>, landmark reconstruction score = 0.5*GLE<sup>* </sup> + 0.5*LLE<sup>* </sup> and pixel reconstruction score = 0.5*GPE<sup>* </sup> + 0.5*LPE<sup>* </sup>. These are provided for reference and research interest without formal ranking.
+We also report four other categories of scores, global reconstruction score = 0.5*(1-GPE<sup>* </sup>) + 0.5*(1-GLE<sup>* </sup>), local reconstruction score = 0.5*(1-LPE<sup>* </sup>) + 0.5*(1-LLE<sup>* </sup>), landmark reconstruction score = 0.5*(1-GLE<sup>* </sup>) + 0.5*(1-LLE<sup>* </sup>) and pixel reconstruction score = 0.5*(1-GPE<sup>* </sup>) + 0.5*(1-LPE<sup>* </sup>). These are provided for reference and research interest without formal ranking.
 
 > **_NOTE:_** The minimum score (0) will be given to any case where the code cannot run or the metric cannot be computed successfully. For the submissions with the same final score, the rank will be generated based on the runtime. A smaller runtime will be awarded a higher rank. A maximum runtime will be imposed for challenge submissions, benchmarked as the speed of our baseline methods, to encourage usability in the clinical applications. All the raw values for the defined metrics will also be made available.
 
