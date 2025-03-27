@@ -28,7 +28,7 @@ nav_order: 3
 ## 3. [Register](registration.html)
 
 * Read the [Challenge Rules & Policies](policies.html).
-* Fill in the registration <a href="TBA" target="_blank">form</a>. [TBA]
+* Fill in the registration <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwtuGHDRzVfVFoLaRvly0HStUMkcyWlgzQ1VQOU8yTTZFRVRXSU9FMVNIWi4u" target="_blank">form</a>. [TBA]
 
 ##  4. Download [dataset](data.html)
 We will send the links of data to you once we receive your registration information.
