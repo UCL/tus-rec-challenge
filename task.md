@@ -48,12 +48,12 @@ Fig. 2. The relationship among three coordinate systems: the image coordinate sy
 </div>
 
 
-The rigid transformation from the $$i^{th}$$ frame to the $$j^{th}$$ frame, $$T_{j\leftarrow i}$$, can be obtained using [Eq. 1](#transformation), where $$T_{j\leftarrow i}^{tool}$$ denotes the transformation between $$i^{th}$$ tacker tool to the $$j^{th}$$ track tool. $$T_{scale}$$ and $$T_{rotation}$$ represent the scaling from pixel to mm and spatial calibration from image coordinate system to tracking tool coordinate system.
+The rigid transformation from the $$i^{th}$$ frame to the $$j^{th}$$ frame (in mm), $$T_{j\leftarrow i}$$, can be obtained using [Eq. 1](#transformation), where $$T_{j\leftarrow i}^{tool}$$ denotes the transformation between $$i^{th}$$ tacker tool to the $$j^{th}$$ track tool and $$T_{rotation}$$ represents spatial calibration from image coordinate system to tracking tool coordinate system.
 
 <a id="transformation"></a>
 $$
 \begin{equation}
-T_{j\leftarrow i}= T_{rotation}^{-1} \times T_{j\leftarrow i}^{tool} \times T_{rotation} \times T_{scale}, 1 \leq i<j \leq M \tag{1}
+T_{j\leftarrow i}= T_{rotation}^{-1} \times T_{j\leftarrow i}^{tool} \times T_{rotation}, 1 \leq i<j \leq M \tag{1}
 \end{equation}
 $$
 
@@ -85,9 +85,10 @@ For any pixel $$p$$ in $$i^{th}$$ frame, the coordinate in image coordinate syst
 <a id="coordinate"></a>
 $$
 \begin{equation}
-Cor_p = T_i \times I_p \tag{4}
+Cor_p = T_i \times T_{scale} \times I_p \tag{4}
 \end{equation}
 $$
+where $$T_{scale}$$ denotes the scaling from pixel to mm.
 <!-- where $T_i$ denotes the transformation from $i^{th}$ frame to the first frame. -->
 
 
