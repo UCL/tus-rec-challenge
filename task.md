@@ -66,7 +66,7 @@ T_{j\leftarrow i} \approx f(I_i, I_j) \tag{2}
 \end{equation}
 $$
 
-Typically, adjacent frames are used in [Eq. 2](#freehandUS), where $$j = i+1$$. The transformation from $$i^{th}$$ frame to the first frame $$T_i$$ can be computed by recursively multiplying the previously estimated relative transformations, as shown in [Eq. 3](#chain-multiplying):
+Typically, adjacent frames are used in [Eq. 2](#freehandUS). The transformation from $$i^{th}$$ frame to the first frame $$T_i$$ can be computed by recursively multiplying the previously estimated relative transformations, as shown in [Eq. 3](#chain-multiplying):
 
 <a id="chain-multiplying"></a>
 $$

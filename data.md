@@ -40,25 +40,16 @@ The position information recorded by the optical tracker (NDI Polaris Vicra, Nor
 
 Freehand_US_data_train_2025/ 
     │
-    ├── frames/
+    ├── frames_transfs/
         ├── 000/
-            ├── RH_rotating.h5 # US frames in rotating scan of right forearm, subject 000
-            ├── LH_rotating.h5 # US frames in rotating scan of left forearm, subject 000
+            ├── RH_rotating.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of right forearm, subject 000
+            ├── LH_rotating.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of left forearm, subject 000
         ├── 001/
-            ├── RH_rotating.h5 # US frames in rotating scan of right forearm, subject 001
-            ├── LH_rotating.h5 # US frames in rotating scan of left forearm, subject 001
+            ├── RH_rotating.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of right forearm, subject 001
+            ├── LH_rotating.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of left forearm, subject 001
         ├── ...
 
-    ├── transfs/
-        ├── 000/
-            ├── RH_rotating.h5 # associated transformations for each frame, from tracker space to optical camera space, for rotating scan of right forearm, subject 000
-            ├── LH_rotating.h5 # associated transformations for each frame, from tracker space to optical camera space, for rotating scan of left forearm, subject 000
-        ├── 001/
-            ├── RH_rotating.h5 # associated transformations for each frame, from tracker space to optical camera space, for rotating scan of right forearm, subject 001
-            ├── LH_rotating.h5 # associated transformations for each frame, from tracker space to optical camera space, for rotating scan of left forearm, subject 001
-        ├── ...
-
-    ├── landmark/
+    ├── landmarks/
         ├── landmark_000.h5 # landmarks in scans of subject 000
         ├── landmark_001.h5 # landmarks in scans of subject 001
         ├── ...
@@ -68,13 +59,12 @@ Freehand_US_data_train_2025/
 
 ```
 
-* Folder `frames`: contains 50 folders (one subject per folder), each with 2 scans. Each .h5 file corresponds to one scan, storing image of each frame within this scan. Key-value pair and name of each .h5 file are explained below. 
+* Folder `frames_transfs`: contains 50 folders (one subject per folder), each with 2 scans. Each .h5 file corresponds to one scan, storing image and transformation of each frame within this scan. Key-value pairs and name of each .h5 file are explained below. 
     * `frames` - All frames in the scan; with a shape of [N,H,W], where N refers to the number of frames in the scan, H and W denote the height and width of a frame.
-    * Notations in the name of each .h5 file: `RH`: right arm; `LH`: left arm. For example, `RH_rotating.h5` denotes a rotating scan on the right forearm. 
 
-* Folder `transfs`: contains 50 folders (one subject per folder), each with 2 scans. Each .h5 file corresponds to one scan, storing transformation of each frame within this scan. Key-value pair and name of each .h5 file are explained below. 
     * `tforms` - All transformations in the scan; with a shape of [N,4,4], where N is the number of frames in the scan, and the transformation matrix denotes the transformation from tracker tool space to camera space. 
-    * Notations in the name of each .h5 file is the same as in folder `frames`.
+
+    * Notations in the name of each .h5 file: `RH`: right arm; `LH`: left arm. For example, `RH_rotating.h5` denotes a rotating scan on the right forearm. 
 
 * Folder `landmark`: contains 50 .h5 files. Each corresponds to one subject, storing coordinates of landmarks for 2 scans of this subject. For each scan, the coordinates are stored in numpy array with a shape of [100,3]. The first column is the index of frame; the second and third columns denote the coordinates of landmarks in the image coordinate system.
 
