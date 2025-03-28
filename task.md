@@ -71,7 +71,7 @@ Typically, adjacent frames are used in [Eq. 2](#freehandUS). The transformation 
 <a id="chain-multiplying"></a>
 $$
 \begin{equation}
-T_i= T_{1\leftarrow 2} \times T_{2\leftarrow 3} \cdots T_{i-1\leftarrow i} \tag{3}
+T_i= T_{1\leftarrow 2} \times T_{2\leftarrow 3} \times \cdots \times T_{i-1\leftarrow i} \tag{3}
 \end{equation}
 $$
 
