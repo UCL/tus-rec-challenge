@@ -55,9 +55,9 @@ Freehand_US_data_train_2025/
         ├── ...
 
     ├── calib_matrix.csv # calibration matrix
-    # ├── dataset_keys.h5 # the paths to all the scans of the data set
 
 ```
+<!-- ├── dataset_keys.h5 # the paths to all the scans of the data set -->
 
 * Folder `frames_transfs`: contains 50 folders (one subject per folder), each with 2 scans. Each .h5 file corresponds to one scan, storing image and transformation of each frame within this scan. Key-value pairs and name of each .h5 file are explained below. 
     * `frames` - All frames in the scan; with a shape of [N,H,W], where N refers to the number of frames in the scan, H and W denote the height and width of a frame.
