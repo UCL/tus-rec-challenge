@@ -53,10 +53,10 @@ The rigid transformation from the $$i^{th}$$ frame to the $$j^{th}$$ frame (in m
 <a id="transformation"></a>
 $$
 \begin{equation}
-T_{j\leftarrow i}= T_{rotation}^{-1} \times T_{j\leftarrow i}^{tool} \times T_{rotation}
-% , 1 \leq i<j \leq M \tag{1}
+T_{j\leftarrow i}= T_{rotation}^{-1} \times T_{j\leftarrow i}^{tool} \times T_{rotation} \tag{1}
 \end{equation}
 $$
+<!-- , 1 \leq i<j \leq M  -->
 
 In general, prior studies have formulated freehand US reconstruction as the estimation of the transformation between two frames in an US sequence. This estimation relies on a function $$f$$, which serves as the core of freehand US reconstruction, as expressed in [Eq. 2](#freehandUS): 
 
