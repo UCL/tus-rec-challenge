@@ -6,7 +6,7 @@ nav_order: 4
 
 # Background: Freehand US Reconstruction
 
-The aim of Freehand US reconstruction is to estimate the transformation between any pair of US frames in a US scan without any external tracker, and thus reconstruct 2D US images into a 3D volume (see [Fig. 1](#figure1)).
+The aim of Freehand US reconstruction is to estimate the transformation between any pair of US frames in an US scan without any external tracker, and thus reconstruct 2D US images into a 3D volume (see [Fig. 1](#figure1)).
 
 <div align=center>
   <a 
@@ -48,7 +48,7 @@ Fig. 2. The relationship among three coordinate systems: the image coordinate sy
 </div>
 
 
-The rigid transformation from the $$i^{th}$$ frame to the $$j^{th}$$ frame (in mm), $$T_{j\leftarrow i}$$, can be obtained using [Eq. 1](#transformation), where $$T_{j\leftarrow i}^{tool}$$ denotes the transformation between $$i^{th}$$ tacker tool to the $$j^{th}$$ track tool and $$T_{rotation}$$ represents spatial calibration from image coordinate system to tracking tool coordinate system.
+The rigid transformation from the $$i^{th}$$ frame to the $$j^{th}$$ frame (in mm), $$T_{j\leftarrow i}$$, can be obtained using [Eq. 1](#transformation), where $$T_{j\leftarrow i}^{tool}$$ denotes the transformation between $$i^{th}$$ tacker tool to the $$j^{th}$$ track tool and $$T_{rotation}$$ represents spatial calibration from image coordinate system (in mm) to tracking tool coordinate system.
 
 <a id="transformation"></a>
 $$
