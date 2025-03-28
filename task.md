@@ -53,7 +53,8 @@ The rigid transformation from the $$i^{th}$$ frame to the $$j^{th}$$ frame (in m
 <a id="transformation"></a>
 $$
 \begin{equation}
-T_{j\leftarrow i}= T_{rotation}^{-1} \times T_{j\leftarrow i}^{tool} \times T_{rotation}, 1 \leq i<j \leq M \tag{1}
+T_{j\leftarrow i}= T_{rotation}^{-1} \times T_{j\leftarrow i}^{tool} \times T_{rotation}
+% , 1 \leq i<j \leq M \tag{1}
 \end{equation}
 $$
 
