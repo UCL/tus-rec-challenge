@@ -42,11 +42,11 @@ Freehand_US_data_train_2025/
     │
     ├── frames_transfs/
         ├── 000/
-            ├── RH_rotating.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of right forearm, subject 000
-            ├── LH_rotating.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of left forearm, subject 000
+            ├── RH_rotation.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of right forearm, subject 000
+            ├── LH_rotation.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of left forearm, subject 000
         ├── 001/
-            ├── RH_rotating.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of right forearm, subject 001
-            ├── LH_rotating.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of left forearm, subject 001
+            ├── RH_rotation.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of right forearm, subject 001
+            ├── LH_rotation.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of left forearm, subject 001
         ├── ...
 
     ├── landmarks/
