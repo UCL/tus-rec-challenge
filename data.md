@@ -36,9 +36,14 @@ The position information recorded by the optical tracker (NDI Polaris Vicra, Nor
 
 An example of the scan is shown below.
 
-<div align=center>
+<!-- <div align=center>
   <a target="_blank"><img style="padding: 10px;" src="img/example_scan.mp4" width=200px></a>
-</div >
+</div > -->
+
+<video width="640" height="360" controls>
+  <source src="img/example_scan.mp4" type="video/mp4">
+</video>
+
 
 ## Training Data Structure 
 

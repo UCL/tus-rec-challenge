@@ -50,6 +50,7 @@ Additional training and validation data from TUS-REC2024:
 * [Homepage](index.html)
 * <a href="TBA" target="_blank">Challenge proposal</a> [TBA]
 * [Task description](task.html)
+* <a href="TBA" target="_blank">Baseline code</a> [TBA]
 * Information about past [TUS-REC2024 Challenge](TUS-REC2024/TUS-REC2024.html)
 * Additional info:
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-72083-3_64" target="_blank">Paper 1</a>,
