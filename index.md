@@ -7,7 +7,7 @@ nav_order: 1
 <!-- 1. TOC
 {:toc} -->
 
-# TUS-REC 2025 Challenge
+# TUS-REC2025 Challenge
 
 <div align=center>
   <a href="img/TUS-REC%20CHALLENGE%20(MICCAI%202024).pdf" target="_blank"><img style="padding: 10px;" src="img/logo.png" width=200px></a>
