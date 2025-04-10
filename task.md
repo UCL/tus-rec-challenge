@@ -81,7 +81,7 @@ Moreover, [Eq. 3](#chain-multiplying) demonstrates that estimation errors can pr
 Reconstructing the 3D US volume and the trajectory of the US frames requires determining the position of each frame. 
 <!-- Since freehand US systems lack an absolute coordinate system, t -->
 The first frame is chosen as the reference. As a result, only the relative transformations with respect to the first frame are needed.
-For any pixel $$x$$ in $$i^{th}$$ frame with coordinates $$p_x$$ in image coordinate system (in pixel) of frame $$i$$, the coordinates in image coordinate system (in mm) of reference frame $$P_x$$, can be obtained using [Eq. 4](#coordinate).
+For any pixel $$x$$ in $$i^{th}$$ frame with coordinates $$p_x$$ in image coordinate system (in pixel) of frame $$i$$, the coordinates in image coordinate system (in mm) of frame 1, $$P_x$$, can be obtained using [Eq. 4](#coordinate).
 
 <a id="coordinate"></a>
 $$
