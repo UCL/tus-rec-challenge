@@ -25,7 +25,7 @@ reconstruction as the challenge task, TUS-REC2025 aims to 1) benchmark the model
 reconstruction for rotating scans, suitable for modern learning-based data-driven approaches. -->
 
 ## Main resources
-* <a href="TBA" target="_blank">Full challenge description</a> [TBA]
+* <a href="https://zenodo.org/records/15119085" target="_blank">Full challenge description</a>
 * <a href="TBA" target="_blank">Train data</a> [TBA]
 <!-- * [Validation data](TBA) -->
 * <a href="TBA" target="_blank">Baseline code</a> [TBA]

@@ -48,7 +48,7 @@ Additional training and validation data from TUS-REC2024:
 <!-- ## 1. Get details about the TUS-REC2025 Challenge -->
 ## 5. Relevant links
 * [Homepage](index.html)
-* <a href="TBA" target="_blank">Challenge proposal</a> [TBA]
+* <a href="https://zenodo.org/records/15119085" target="_blank">Challenge proposal</a>
 * [Task description](task.html)
 * <a href="TBA" target="_blank">Baseline code</a> [TBA]
 * Information about past [TUS-REC2024 Challenge](TUS-REC2024/TUS-REC2024.html)
