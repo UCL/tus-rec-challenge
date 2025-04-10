@@ -53,7 +53,7 @@ The rigid transformation from the $$i^{th}$$ frame to the $$j^{th}$$ frame (in m
 <a id="transformation"></a>
 $$
 \begin{equation}
-T_{j\leftarrow i}= T_{rotation}^{-1} \times T_{j\leftarrow i}^{tool} \times T_{rotation} \tag{1}
+T_{j\leftarrow i}= T_{rotation}^{-1} \cdot T_{j\leftarrow i}^{tool} \cdot T_{rotation} \tag{1}
 \end{equation}
 $$
 <!-- , 1 \leq i<j \leq M  -->
@@ -72,7 +72,7 @@ Typically, adjacent frames are used in [Eq. 2](#freehandUS). The transformation 
 <a id="chain-multiplying"></a>
 $$
 \begin{equation}
-T_i= T_{1\leftarrow 2} \times T_{2\leftarrow 3} \times \cdots \times T_{i-1\leftarrow i} \tag{3}
+T_i= T_{1\leftarrow 2} \cdot T_{2\leftarrow 3}  \cdots  T_{i-1\leftarrow i} \tag{3}
 \end{equation}
 $$
 
@@ -86,7 +86,7 @@ For any pixel $$p$$ in $$i^{th}$$ frame, the coordinate in image coordinate syst
 <a id="coordinate"></a>
 $$
 \begin{equation}
-Cor_p = T_i \times T_{scale} \times I_p \tag{4}
+Cor_p = T_i \cdot T_{scale} \cdot I_p \tag{4}
 \end{equation}
 $$
 where $$T_{scale}$$ denotes the scaling from pixel to mm.
