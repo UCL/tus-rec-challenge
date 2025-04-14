@@ -54,19 +54,22 @@ Your browser does not support the video tag.
 Freehand_US_data_train_2025/ 
     │
     ├── frames_transfs/
-        ├── 000/
-            ├── RH_rotation.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of right forearm, subject 000
-            ├── LH_rotation.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of left forearm, subject 000
-        ├── 001/
-            ├── RH_rotation.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of right forearm, subject 001
-            ├── LH_rotation.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of left forearm, subject 001
-        ├── ...
-
+    │   ├── 000/
+    │       ├── RH_rotation.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of right forearm, subject 000
+    │       └── LH_rotation.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of left forearm, subject 000
+    │   
+    │   ├── 001/
+    │       ├── RH_rotation.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of right forearm, subject 001
+    │       └── LH_rotation.h5 # US frames and associated transformations (from tracker tool space to optical camera space) in rotating scan of left forearm, subject 001
+    │   
+    │   ├── ...
+    │
+    │
     ├── landmarks/
-        ├── landmark_000.h5 # landmarks in scans of subject 000
-        ├── landmark_001.h5 # landmarks in scans of subject 001
-        ├── ...
-
+    │   ├── landmark_000.h5 # landmarks in scans of subject 000
+    │   ├── landmark_001.h5 # landmarks in scans of subject 001
+    │   ├── ...
+    │
     ├── calib_matrix.csv # calibration matrix
 
 ```
