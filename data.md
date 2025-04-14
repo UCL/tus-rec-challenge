@@ -81,7 +81,7 @@ Freehand_US_data_train_2025/
 
 * Folder `landmarks`: contains 50 .h5 files. Each corresponds to one subject, storing coordinates of landmarks for 2 scans of this subject. For each scan, the coordinates are stored in numpy array with a shape of [100,3]. The first column is the index of frame; the second and third columns denote the coordinates of landmarks in the image coordinate system.
 
-* Calibration matrix: The calibration matrix was obtained using a pinhead-based method. The `scaling_from_pixel_to_mm` and `spatial_calibration_from_image_coordinate_system_to_tracking_tool_coordinate_system` are provided in the “calib_matrix.csv”. 
+* Calibration matrix: The calibration matrix was obtained using a pinhead-based method. The `scaling_from_pixel_to_mm` and `spatial_calibration_from_image_coordinate_system_to_tracking_tool_coordinate_system` are provided in the “calib_matrix.csv”, where `scaling_from_pixel_to_mm` is the scale between image coordinate system (in pixel) and image coordinate system (in mm), and `spatial_calibration_from_image_coordinate_system_to_tracking_tool_coordinate_system` is the rigid transformation between image coordinate system (in mm) to tracking tool coordinate system. Please refer to an example where this calibration matrix is read and used in the baseline code <a href="TBA" target="_blank">here</a>. 
 
 <!-- * `dataset_keys.h5`: stores the paths to all the scans of the data set. Keys in `dataset_keys.h5` denotes all the available scans in the training data, in a format of “sub%03d__%s” where %03d denotes folder name, and %s denotes the scan name. For example, “sub010__LH_rotating” means the scan in folder “010”, with file name of `LH_rotating.h5`. -->
 

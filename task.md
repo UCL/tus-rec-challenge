@@ -13,7 +13,7 @@ The aim of Freehand US reconstruction is to estimate the transformation between 
   target="_blank"><img 
   style="padding: 10px;" 
   src="img/rec.png" 
-  width=400px
+  width=300px
   id="figure1">
   
 </a>
@@ -37,7 +37,7 @@ For an US scan $$\mathcal{S}$$, image sequences comprising $$M$$ 2D frames can b
   target="_blank"><img 
   style="padding: 10px;" 
   src="img/coordinate_system.png" 
-  width=400px
+  width=300px
   id="figure2">
   
 </a>
@@ -103,7 +103,8 @@ transformation-representing displacement vectors as results, a set of displaceme
 
 Participant teams are expected to make use of the sequential data and potentially make knowledge transfer from US data with other scanning protocols, for example the dataset released in TUS-REC2024. The participant teams are expected to take US scan as input and output two sets of pixel displacement vectors, indicating the transformation to reference frame, i.e., first frame in this task. The evaluation process will take the generated displacement vectors from their dockerized models, and produce the final accuracy score to represent the reconstruction performance, at local and global levels, representing different clinical application of the reconstruction methods.
 
-We provide a baseline algorithm adapted from <a href="https://doi.org/10.1109/TBME.2023.3325551" target="_blank">Li et al. 2023</a> in this <a href="TBA" target="_blank">repo</a>. [TBA]
+We provide a baseline algorithm in this <a href="TBA" target="_blank">repo</a>. [TBA]
+<!-- adapted from <a href="https://doi.org/10.1109/TBME.2023.3325551" target="_blank">Li et al. 2023</a>  -->
 
 <!-- # Application scenarios
 
