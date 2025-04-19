@@ -47,7 +47,7 @@ Your browser does not support the video tag.
 </video>
 
 
-## Training Data Structure 
+## Training Data Structure (<a href="https://zenodo.org/records/15224704" target="_blank">Link</a> to training dataset) 
 
 ```bash
 

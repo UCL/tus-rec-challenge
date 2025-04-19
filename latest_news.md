@@ -1,5 +1,5 @@
 ---
-title: Latest_News
+title: Latest News
 layout: default
 nav_order: 2
 ---
