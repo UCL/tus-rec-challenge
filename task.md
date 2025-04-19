@@ -1,7 +1,7 @@
 ---
 title: Task Description
 layout: default
-nav_order: 4
+nav_order: 5
 ---
 
 # Background: Freehand US Reconstruction

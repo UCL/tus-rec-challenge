@@ -1,7 +1,7 @@
 ---
 title: Participate
 layout: default
-nav_order: 3
+nav_order: 4
 ---
 
 # How to Participate in the TUS-REC2025 Challenge
@@ -20,8 +20,8 @@ nav_order: 3
 ##  2. Download [dataset](data.html)
 We will send the links of data to you once we receive your registration information.
 
-* <a href="TBA" target="_blank">Training data</a> [TBA]
-* <a href="TBA" target="_blank">Validation data</a> [TBA]
+* <a href="https://zenodo.org/records/15224704" target="_blank">Training data</a>
+<!-- * <a href="TBA" target="_blank">Validation data</a> [TBA] -->
 
 Additional training and validation data from TUS-REC2024:
 

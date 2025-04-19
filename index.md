@@ -10,7 +10,7 @@ nav_order: 1
 # TUS-REC2025 Challenge
 
 <div align=center>
-  <a href="img/TUS-REC%20CHALLENGE%20(MICCAI%202024).pdf" target="_blank"><img style="padding: 10px;" src="img/logo.png" width=200px></a>
+  <a href="img/TUS-REC2025.pdf" target="_blank"><img style="padding: 10px;" src="img/logo.png" width=200px></a>
 </div >
 
 **Trackerless 3D Freehand Ultrasound Reconstruction (TUS-REC2025) Challenge**
@@ -26,8 +26,7 @@ reconstruction for rotating scans, suitable for modern learning-based data-drive
 
 ## Main resources
 * <a href="https://zenodo.org/records/15119085" target="_blank">Full challenge description</a>
-* <a href="TBA" target="_blank">Train data</a> [TBA]
-<!-- * [Validation data](TBA) -->
+* <a href="https://zenodo.org/records/15224704" target="_blank">Train data</a><!-- * [Validation data](TBA) -->
 * <a href="TBA" target="_blank">Baseline code</a> [TBA]
 * <a href="TBA" target="_blank">Submission/Evaluation code</a> [TBA]
 
@@ -61,7 +60,7 @@ The results from all participants will be made publicly available on leaderboard
 
 ## Organizers
 
-Qi Li, University College London
+[Qi Li](mailto:qi.li.21@ucl.ac.uk), University College London
 
 Yuliang Huang, University College London
 
@@ -75,7 +74,7 @@ Tom Vercauteren, King's College London
 
 Yipeng Hu, University College London
 
-Challenge Contact E-Mail: [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk)
+<!-- Challenge Contact E-Mail: [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk) -->
 
 ## Sponsors
 
