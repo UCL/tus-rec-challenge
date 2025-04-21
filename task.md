@@ -31,7 +31,7 @@ Fig. 1. An illustration of freehand US reconstruction.
 </figure> -->
 
 
-For an US scan $$\mathcal{S}$$, image sequences comprising $$M$$ 2D frames can be sampled as $$S=\{I_m\}, m=1,2,...,M$$, where $$S \subseteq {\mathcal{S}}$$ and $$m$$ represents consecutively increasing time-steps at which the frames are acquired. [Fig. 2](#figure2) shows the relationship among three coordinate systems: the image coordinate system, the tracker tool coordinate system, and the camera coordinate system.  
+For an US scan $$\mathcal{S}$$, image sequences comprising $$M$$ 2D frames can be sampled as $$s_m=\{I_m\}, m=1,2,...,M$$, where $$s_m \subseteq {\mathcal{S}}$$ and $$m$$ represents consecutively increasing time-steps at which the frames are acquired. [Fig. 2](#figure2) shows the relationship among three coordinate systems: the image coordinate system, the tracker tool coordinate system, and the camera coordinate system.  
 <div align=center>
   <a 
   target="_blank"><img 
@@ -67,12 +67,12 @@ T_{j\leftarrow i} \approx f(I_i, I_j) \tag{2}
 \end{equation}
 $$
 
-Typically, adjacent frames are used in [Eq. 2](#freehandUS). The transformation from $$i^{th}$$ frame to the first frame $$T_i$$ can be computed by recursively multiplying the previously estimated relative transformations, as shown in [Eq. 3](#chain-multiplying):
+Typically, adjacent frames are used in [Eq. 2](#freehandUS). The transformation from $$i^{th}$$ frame to the first frame $$T_{1\leftarrow i}$$ can be computed by recursively multiplying the previously estimated relative transformations, as shown in [Eq. 3](#chain-multiplying):
 
 <a id="chain-multiplying"></a>
 $$
 \begin{equation}
-T_i= T_{1\leftarrow 2} \cdot T_{2\leftarrow 3}  \cdots  T_{i-1\leftarrow i} \tag{3}
+T_{1\leftarrow i}= T_{1\leftarrow 2} \cdot T_{2\leftarrow 3}  \cdots  T_{i-1\leftarrow i} \tag{3}
 \end{equation}
 $$
 
@@ -86,7 +86,7 @@ For any pixel $$x$$ in $$i^{th}$$ frame with coordinates $$p_x$$ in image coordi
 <a id="coordinate"></a>
 $$
 \begin{equation}
-P_x = T_i \cdot T_{scale} \cdot p_x \tag{4}
+P_x = T_{1\leftarrow i} \cdot T_{scale} \cdot p_x \tag{4}
 \end{equation}
 $$
 where $$T_{scale}$$ denotes the scaling from pixel to mm.
@@ -101,9 +101,9 @@ where $$T_{scale}$$ denotes the scaling from pixel to mm.
 The algorithm is expected to take the entire scan as input and output two different sets of
 transformation-representing displacement vectors as results, a set of displacement vectors on individual pixels and a set of displacement vectors on provided landmarks. There is no requirement on how the algorithm is designed internally, for example, whether it is learning-based method; frame-, sequence- or scan-based processing; or, rigid-, affine- or nonrigid transformation assumptions. Details are explained further in [Assessment](assessment.html).
 
-Participant teams are expected to make use of the sequential data and potentially make knowledge transfer from US data with other scanning protocols, for example the dataset released in TUS-REC2024. The participant teams are expected to take US scan as input and output two sets of pixel displacement vectors, indicating the transformation to reference frame, i.e., first frame in this task. The evaluation process will take the generated displacement vectors from their dockerized models, and produce the final accuracy score to represent the reconstruction performance, at local and global levels, representing different clinical application of the reconstruction methods.
+Participant teams are expected to make use of the sequential data and potentially make knowledge transfer from US data with other scanning protocols, for example the dataset released in TUS-REC2024. The participant teams are expected to take US scan as input and output two sets of pixel displacement vectors, indicating the transformation to reference frame. The evaluation process will take the generated displacement vectors from their dockerized models, and produce the final accuracy score to represent the reconstruction performance, at local and global levels, representing different clinical application of the reconstruction methods.
 
-We provide a baseline algorithm in this <a href="TBA" target="_blank">repo</a>. [TBA]
+We provide a baseline algorithm in this <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline" target="_blank">repo</a>.
 <!-- adapted from <a href="https://doi.org/10.1109/TBME.2023.3325551" target="_blank">Li et al. 2023</a>  -->
 
 <!-- # Application scenarios

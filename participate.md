@@ -33,7 +33,7 @@ Additional training and validation data from TUS-REC2024:
 
 ## 3. Develop your method
 
-* Get started with the <a href="TBA" target="_blank">baseline code</a>. [TBA]
+* Get started with the <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline" target="_blank">baseline code</a>.
 * Get details about [assessment](assessment.html).
 
 ## 4. Build Docker image and submit
@@ -50,7 +50,7 @@ Additional training and validation data from TUS-REC2024:
 * [Homepage](index.html)
 * <a href="https://zenodo.org/records/15119085" target="_blank">Challenge proposal</a>
 * [Task description](task.html)
-* <a href="TBA" target="_blank">Baseline code</a> [TBA]
+* <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline" target="_blank">Baseline code</a>
 * Information about past [TUS-REC2024 Challenge](TUS-REC2024/TUS-REC2024.html)
 * Additional info:
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-72083-3_64" target="_blank">Paper 1</a>,

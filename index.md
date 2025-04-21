@@ -27,7 +27,7 @@ reconstruction for rotating scans, suitable for modern learning-based data-drive
 ## Main resources
 * <a href="https://zenodo.org/records/15119085" target="_blank">Full challenge description</a>
 * <a href="https://zenodo.org/records/15224704" target="_blank">Train data</a><!-- * [Validation data](TBA) -->
-* <a href="TBA" target="_blank">Baseline code</a> [TBA]
+* <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline" target="_blank">Baseline code</a>
 * <a href="TBA" target="_blank">Submission/Evaluation code</a> [TBA]
 
 ## Timeline
