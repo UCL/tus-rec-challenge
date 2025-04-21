@@ -6,7 +6,7 @@ nav_order: 6
 
 # The Data set
 
-The data in this challenge is acquired from both left and right forearms of 85 volunteers, acquired at University College London, London, U.K, with a racial-, gender-, age-diverse subject cohort. [Fig. 3](#figure3) shows the equipment setting during acquisition. No specific exclusion criteria as long as the participants do not have allergies or skin conditions which may be exacerbated by US gel. All scanned forearms are in good health. The data is randomly split into training, validation, and test sets of 50, 3, and 32 subjects (100, 6, 64 scans; ~163k, ~9k, ~100k frames), respectively.
+The data in this challenge is acquired from both left and right forearms of 85 volunteers, acquired at University College London, London, U.K, with a racial-, gender-, age-diverse subject cohort. [Fig. 3](#figure3) shows the equipment setting during acquisition. No specific exclusion criteria as long as the participants do not have allergies or skin conditions which may be exacerbated by US gel. All scanned forearms are in good health. The data is randomly split into train, validation, and test sets of 50, 3, and 32 subjects (100, 6, 64 scans; ~163k, ~9k, ~100k frames), respectively.
 
 <div align=center>
   <a 
@@ -34,20 +34,37 @@ The 2D US images were acquired using an Ultrasonix machine (BK, Europe) with a c
 
 The position information recorded by the optical tracker (NDI Polaris Vicra, Northern Digital Inc., Canada) will be provided along with the images, which indicates the position of the US probe for each frame in the camera coordinate system, described as homogeneous transformation matrix with respect to reference frame. A calibration matrix will also be provided, denoting the transformation between US image coordinate system and US probe coordinate system while these data were acquired. The data is provided temporally calibrated, aligning the timestamps for both transformations from the optical tracker and ultrasound frames from US machine.
 
-An example of the scan is shown below.
+<!-- An example of the scan is shown below. -->
 
 <!-- <div align=center>
   <a target="_blank"><img style="padding: 10px;" src="img/example_scan.mp4" width=200px></a>
 </div > -->
 
-<video width="640" height="360" controls>
+<!-- <video width="640" height="360" controls>
   <source src="img/example_scan.mp4" type="video/mp4">
 Your browser does not support the video tag.
 
-</video>
+</video> -->
+
+An illustration of the scan is shown in [Fig. 4](#figure4).
+
+<div align=center>
+  <a 
+  target="_blank"><img 
+  style="padding: 10px;" 
+  src="img/example_scan.gif" 
+  width=250px
+  id="figure4">
+  
+</a>
+
+</div >
+<div align=center>
+Fig. 4. An illustration of rotation scan. (The 3D arm stl model is from <a href="https://www.printables.com/model/349380-hand-and-forearm-natural-position-scan/files" target="_blank">here</a>.)
+</div>
 
 
-## Training Data Structure (<a href="https://zenodo.org/records/15224704" target="_blank">Link</a> to training dataset) 
+## Train Data Structure (<a href="https://zenodo.org/records/15224704" target="_blank">Link</a> to train dataset) 
 
 ```bash
 
