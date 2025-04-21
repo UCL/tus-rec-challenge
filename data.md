@@ -46,7 +46,7 @@ Your browser does not support the video tag.
 
 </video> -->
 
-An illustration of the scan is shown in [Fig. 4](#figure4).
+An illustration of a scan is shown in [Fig. 4](#figure4).
 
 <div align=center>
   <a 
@@ -60,7 +60,7 @@ An illustration of the scan is shown in [Fig. 4](#figure4).
 
 </div >
 <div align=center>
-Fig. 4. An illustration of rotation scan. (The 3D arm stl model is from <a href="https://www.printables.com/model/349380-hand-and-forearm-natural-position-scan/files" target="_blank">here</a>.)
+Fig. 4. An illustration of a rotation scan. (The 3D arm stl model is from <a href="https://www.printables.com/model/349380-hand-and-forearm-natural-position-scan/files" target="_blank">here</a>.)
 </div>
 
 
