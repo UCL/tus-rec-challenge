@@ -53,7 +53,7 @@ An illustration of the scan is shown in [Fig. 4](#figure4).
   target="_blank"><img 
   style="padding: 10px;" 
   src="img/example_scan.gif" 
-  width=250px
+  width=300px
   id="figure4">
   
 </a>
