@@ -14,7 +14,7 @@ nav_order: 9
 
 # Data Usage Policy
 
-The data is provided under [CC BY NC SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. It is exclusively intended for research purposes, in compliance with the restrictions imposed by the original ethics approval and patient consent.
+The data is provided under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY NC SA</a> license. It is exclusively intended for research purposes, in compliance with the restrictions imposed by the original ethics approval and patient consent.
 
 Following the conclusion of the challenge, the training and validation data will remain publicly accessible. These datasets may be utilized within the research scope of the challenge and in subsequent research-related publications. However, commercial use of the training and validation data is prohibited. In cases where the intended use is ambiguous, participants accessing the data are requested to refrain from further distribution or utilization beyond the scope of this challenge.
 
@@ -65,5 +65,5 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 
 All community leaders are required to uphold the privacy and security of the reporter of any incident.
 
-*This above Code of Conduct has been adapted from the policy available [here](https://github.com/just-the-docs/just-the-docs/blob/main/CODE_OF_CONDUCT.md) for Just the Docs.*
+*This above Code of Conduct has been adapted from the policy available <a href="https://github.com/just-the-docs/just-the-docs/blob/main/CODE_OF_CONDUCT.md" target="_blank">here</a> for Just the Docs.*
 
