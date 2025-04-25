@@ -90,6 +90,7 @@ $$
 where the superscript $$*$$ denotes the normalised reconstruction error, and the subscript $$min$$ and $$max$$ denote the minimum and maximum errors among all participats submissions, for each corresponding metric.
 
 Then, for each team, the final score for each scan will be generated using the formula below:
+
 $$
 \begin{equation}
 final\, score = 0.25\times GPE^* + 0.25\times GLE^* + 0.25\times LPE^* + 0.25\times LLE^*
