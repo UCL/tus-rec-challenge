@@ -86,6 +86,7 @@ $$
 LLE^* = (LLE_{max} – LLE) / (LLE_{max} - LLE{min}) \nonumber
 \end{equation}
 $$
+
 where the superscript $$*$$ denotes the normalised reconstruction error, and the subscript $$min$$ and $$max$$ denote the minimum and maximum errors among all participats submissions, for each corresponding metric.
 
 Then, for each team, the final score for each scan will be generated using the formula below:
