@@ -6,7 +6,7 @@ nav_order: 3
 
 # Registration
 
-Prior to participating the challenge, we kindly request all participants to familiarize themselves with our [participation and data use policies, along with our code of conduct](policies.html).
+Prior to participating the challenge, we kindly request all participants to familiarize themselves with our [participation and data usage policies, along with our publication policy](policies.html).
 
 We ask participants to formally register by filling in this <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwtuGHDRzVfVFoLaRvly0HStUMkcyWlgzQ1VQOU8yTTZFRVRXSU9FMVNIWi4u" target="_blank">form</a>.
 

@@ -59,11 +59,42 @@ The reconstructed scan from either local level or global level displacement are 
 
 ## Ranking method
 
-First, for each individual metric, the values for all submissions will be normalised to the range [0, 1] by the value of baseline method, and then the final score will be generated using the formula below:
+The ranking follows the "aggregate then rank" strategy proposed by <a href="https://www.nature.com/articles/s41467-018-07619-7" target="_blank">Maier-Hein et al. 2018</a>. 
 
-Overall score = 0.25*(1-GPE<sup>* </sup>) + 0.25*(1-GLE<sup>* </sup>) + 0.25*(1-LPE<sup>* </sup>) + 0.25*(1-LLE<sup>* </sup>)
+For each test scan, the four evaluation metrics will be normalised to the range [0, 1] based on the worst and best results from participating teams, respectively, using formulas below. 
 
-where * indicates the normalised reconstruction errors. The "overall score" within the range of [0,1] will be used to produce the final rank for all the submitted algorithms. The final score will be reported with 3 decimal places and the higher the better. 
+$$
+\begin{equation}
+GPE^* = (GPE_{max} – GPE) / (GPE_{max} - GPE_{min}) \nonumber
+\end{equation}
+$$
+
+$$
+\begin{equation}
+GLE^* = (GLE_{max} – GLE) / (GLE_{max} - GLE{min}) \nonumber
+\end{equation}
+$$
+
+$$
+\begin{equation}
+LPE^* = (LPE_{max} – LPE) / (LPE_{max} - LPE{min}) \nonumber
+\end{equation}
+$$
+
+$$
+\begin{equation}
+LLE^* = (LLE_{max} – LLE) / (LLE_{max} - LLE{min}) \nonumber
+\end{equation}
+$$
+where the superscript $$*$$ denotes the normalised reconstruction error, and the subscript $$min$$ and $$max$$ denote the minimum and maximum errors among all participats submissions, for each corresponding metric.
+
+Then, for each team, the final score for each scan will be generated using the formula below:
+$$
+\begin{equation}
+final\, score = 0.25\times GPE^* + 0.25\times GLE^* + 0.25\times LPE^* + 0.25\times LLE^*
+\end{equation}
+$$
+The final score for each team will be averaged over all scans in the test set. The final score within the range of [0,1] will be used to produce the final rank for all the submitted algorithms. The final score will be reported with 3 decimal places and the higher the better.
 
 We also report four other categories of scores, global reconstruction score = 0.5*(1-GPE<sup>* </sup>) + 0.5*(1-GLE<sup>* </sup>), local reconstruction score = 0.5*(1-LPE<sup>* </sup>) + 0.5*(1-LLE<sup>* </sup>), landmark reconstruction score = 0.5*(1-GLE<sup>* </sup>) + 0.5*(1-LLE<sup>* </sup>) and pixel reconstruction score = 0.5*(1-GPE<sup>* </sup>) + 0.5*(1-LPE<sup>* </sup>). These are provided for reference and research interest without formal ranking.
 
