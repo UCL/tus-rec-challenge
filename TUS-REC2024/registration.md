@@ -7,7 +7,7 @@ nav_order: 2
 
 # Registration
 
-**Prior to participating the challenge, we kindly request all participants to familiarize themselves with our [participation and data use policies, along with our code of conduct](policies.html).**
+**Prior to participating the challenge, we kindly request all participants to familiarize themselves with our [participation and data usage policies, along with our publication policy](policies.html).**
 
 We ask participants to formally register by filling in this [form](https://forms.office.com/e/dPg47ktV7M).
 
