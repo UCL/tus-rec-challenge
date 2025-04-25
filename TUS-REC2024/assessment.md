@@ -71,19 +71,19 @@ $$
 
 $$
 \begin{equation}
-GLE^* = (GLE_{max} – GLE) / (GLE_{max} - GLE{min}) \nonumber
+GLE^* = (GLE_{max} – GLE) / (GLE_{max} - GLE_{min}) \nonumber
 \end{equation}
 $$
 
 $$
 \begin{equation}
-LPE^* = (LPE_{max} – LPE) / (LPE_{max} - LPE{min}) \nonumber
+LPE^* = (LPE_{max} – LPE) / (LPE_{max} - LPE_{min}) \nonumber
 \end{equation}
 $$
 
 $$
 \begin{equation}
-LLE^* = (LLE_{max} – LLE) / (LLE_{max} - LLE{min}) \nonumber
+LLE^* = (LLE_{max} – LLE) / (LLE_{max} - LLE_{min}) \nonumber
 \end{equation}
 $$
 
