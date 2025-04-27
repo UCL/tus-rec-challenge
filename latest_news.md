@@ -11,7 +11,7 @@ nav_order: 2
 ---
 
 ><span style="font-size: 12px; color: gray; margin-top: -15px;;">01/04/2025</span>
->#### 🚀 TUS-REC2025 Challenge Officially Launched
+>### 🚀 TUS-REC2025 Challenge Officially Launched
 >Registration is now open.
 
 
