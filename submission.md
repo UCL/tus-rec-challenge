@@ -11,7 +11,7 @@ nav_order: 8
 * The requirement of the `predict_ddfs` function is described below:
   * Input: 
     * `frames`: All frames in the scan; numpy array with a shape of [N,480,640], where N is the number of frames in this scan.
-    * `landmark`: Location of 100 landmarks in the scan; numpy array with a shape of [100,3]. Each row denotes one landmark and the three columns denote the frame index (starting from 0) and the 2d-coordinates of landmarks in the image coordinate system (starting from 1, to maintain consistency with the calibration process). For example, a row like [10,200,100] indicates that there is a landmark in the 10th frame, located at the coordinates [200, 100].
+    * `landmark`: Location of 100 landmarks in the scan; numpy array with a shape of [100,3]. Each row denotes one landmark and the three columns denote the frame index (starting from 0) and the 2d-coordinates of landmarks in the image coordinate system (starting from 1, to maintain consistency with the calibration process). For example, a row like [10,200,100] indicates that there is a landmark in the 10th frame, located at the coordinates [200,100].
     * `data_path_calib`: Path to calibration matrix.
     * `device`: Device to run the model on, provided in <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline/blob/a818cdb708049b6a2209b7dbde6759ef1c8af0e8/submission/test.py#L26" target="_blank">this line</a>.
   * Output:  
@@ -35,4 +35,4 @@ Please contact [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk) if you encounte
 
 Receipt of all submissions will be acknowledged via email within two working days of receipt, and evaluations will be posted on the leaderboard once completed.
 
-The evaluation code, together with the baseline models, is publicly available <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline" target="_blank">here</a>. Participating teams are encouraged, though not obligated, to share their code publicly. Links to any available source code will be provided.
+The evaluation code, together with the baseline model, is publicly available <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline" target="_blank">here</a>. Participating teams are encouraged, though not obligated, to share their code publicly. Links to any available source code will be provided.

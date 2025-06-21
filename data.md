@@ -148,7 +148,7 @@ Freehand_US_data_val_2025/
     │   ├── ...
     │
     ├── calib_matrix.csv # calibration matrix
-    └── dataset_keys.h5 # contains paths of all scans for the dataset
+    └── dataset_keys.h5 # contains paths to all scans in the dataset
 
 
 ```
