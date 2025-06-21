@@ -53,10 +53,10 @@ Additional training and validation data from TUS-REC2024:
 * <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline" target="_blank">Baseline code</a>
 * Information about past [TUS-REC2024 Challenge](TUS-REC2024/TUS-REC2024.html)
 * Additional info:
-    <a href="https://link.springer.com/chapter/10.1007/978-3-031-72083-3_64" target="_blank">Paper 1</a>,
-    <a href="https://ieeexplore.ieee.org/abstract/document/10230773" target="_blank">Paper 2</a>,
-    <a href="https://ieeexplore.ieee.org/abstract/document/10288201" target="_blank">Paper 3</a>,
-    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841518303712?via%3Dihub" target="_blank">Paper 4</a>.
+    <a href="https://doi.org/10.1007/978-3-031-72083-3_64" target="_blank">Paper 1</a>,
+    <a href="https://doi.org/10.1109/ISBI53787.2023.10230773" target="_blank">Paper 2</a>,
+    <a href="https://doi.org/10.1109/TBME.2023.3325551" target="_blank">Paper 3</a>,
+    <a href="https://doi.org/10.1016/j.media.2018.06.003" target="_blank">Paper 4</a>.
 
 
 
