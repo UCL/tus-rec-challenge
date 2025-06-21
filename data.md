@@ -87,7 +87,7 @@ Freehand_US_data_train_2025/
     │   ├── landmark_001.h5 # landmarks in scans of subject 001
     │   ├── ...
     │
-    ├── calib_matrix.csv # calibration matrix
+    └── calib_matrix.csv # calibration matrix
 
 ```
 <!-- ├── dataset_keys.h5 # the paths to all the scans of the data set -->
@@ -111,3 +111,44 @@ Freehand_US_data_train_2025/
     * <a href="https://zenodo.org/doi/10.5281/zenodo.11355499" target="_blank">Training data (Part 3)</a>
     * <a href="https://zenodo.org/doi/10.5281/zenodo.12979481" target="_blank">Validation data</a>
 
+## Validation Data
+
+The validation data is available <a href="https://doi.org/10.5281/zenodo.15699958" target="_blank">here</a>, which has the same structure as the test data. The data folder structure is as follows. Details can be found in the <a href="https://doi.org/10.5281/zenodo.15699958" target="_blank">zenodo page</a>. The validation data is different from the training data in that: 1) the image and transformation for each scan are stored separately in two folders; 2) the added file `dataset_keys.h5` contains the paths to all scans in the dataset.
+
+```bash
+Freehand_US_data_val_2025/ 
+    │
+    ├── frames/
+    │   ├── 050/
+    │       ├── RH_rotation.h5 # US frames in rotating scan of right forearm, subject 050
+    │       └── LH_rotation.h5 # US frames in rotating scan of left forearm, subject 050
+    │   
+    │   ├── 051/
+    │       ├── RH_rotation.h5 # US frames in rotating scan of right forearm, subject 051
+    │       └── LH_rotation.h5 # US frames in rotating scan of left forearm, subject 051
+    │   
+    │   ├── ...
+    │
+    │
+    ├── transfs/
+    │   ├── 050/
+    │       ├── RH_rotation.h5 # transformations (from tracker tool space to optical camera space) in rotating scan of right forearm, subject 050
+    │       └── LH_rotation.h5 # transformations (from tracker tool space to optical camera space) in rotating scan of left forearm, subject 050
+    │   
+    │   ├── 051/
+    │       ├── RH_rotation.h5 # transformations (from tracker tool space to optical camera space) in rotating scan of right forearm, subject 051
+    │       └── LH_rotation.h5 # transformations (from tracker tool space to optical camera space) in rotating scan of left forearm, subject 051
+    │   
+    │   ├── ...
+    │
+    │
+    ├── landmarks/
+    │   ├── landmark_050.h5 # landmark coordinates in scans of subject 050
+    │   ├── landmark_051.h5 # landmark coordinates in scans of subject 051
+    │   ├── ...
+    │
+    ├── calib_matrix.csv # calibration matrix
+    └── dataset_keys.h5 # contains paths of all scans for the dataset
+
+
+```

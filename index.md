@@ -26,9 +26,10 @@ reconstruction for rotating scans, suitable for modern learning-based data-drive
 
 ## Main resources
 * <a href="https://zenodo.org/records/15119085" target="_blank">Full challenge description</a>
-* <a href="https://zenodo.org/records/15224704" target="_blank">Train data</a><!-- * [Validation data](TBA) -->
+* <a href="https://zenodo.org/records/15224704" target="_blank">Training data</a>
+* <a href="https://doi.org/10.5281/zenodo.15699958" target="_blank">Validation data</a>
 * <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline" target="_blank">Baseline code</a>
-* <a href="TBA" target="_blank">Submission/Evaluation code</a> [TBA]
+* <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline/tree/main/submission" target="_blank">Submission/Evaluation code</a>
 
 ## Timeline
 
@@ -43,7 +44,7 @@ The TUS-REC2025 challenge is an open call event, accepting new submissions after
 |  Sep. 01, 2025                 | Winners Announcement                               |
 |  Sep. 23, 2025                 | TUS-REC2025 Challenge Events at MICCAI 2025     |
 
-The Challenge will take place on Sep. 23, 2025 during the <a href="https://miccai-ultrasound.github.io/#/asmus25" target="_blank">ASMUS Workshop</a>. (Details for location, presentation, and event format: TBC.)
+The Challenge will take place on Sep. 27, 2025 during the <a href="https://miccai-ultrasound.github.io/#/asmus25" target="_blank">ASMUS Workshop</a>. (Details for location, presentation, and event format: TBC.)
 
 ## The Task
 

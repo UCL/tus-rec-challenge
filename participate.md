@@ -21,7 +21,7 @@ nav_order: 4
 We will send the links of data to you once we receive your registration information.
 
 * <a href="https://zenodo.org/records/15224704" target="_blank">Training data</a>
-<!-- * <a href="TBA" target="_blank">Validation data</a> [TBA] -->
+* <a href="https://doi.org/10.5281/zenodo.15699958" target="_blank">Validation data</a>
 
 Additional training and validation data from TUS-REC2024:
 
@@ -39,7 +39,7 @@ Additional training and validation data from TUS-REC2024:
 ## 4. Build Docker image and submit
 
 * [Submission guideline](submission.html)
-* <a href="TBA" target="_blank">An example docker</a> [TBA]
+* <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline/blob/main/submission/README.md#instructions-for-docker" target="_blank">An example docker</a>
 
 <!-- ## 7. Track the [leaderboard](leaderboard.html)
 

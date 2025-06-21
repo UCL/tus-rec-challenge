@@ -55,9 +55,6 @@ The results from all participants will be made publicly available on leaderboard
 - The first-place and runner-up achievers will receive additional certificates.
 - Participants who successfully participated the challenge will be awarded certificates of participation.
 
-<!-- ## Discussion Board 
-
-TBA on GitHub -->
 
 ## Organizers
 

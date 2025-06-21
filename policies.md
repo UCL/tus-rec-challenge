@@ -8,7 +8,7 @@ nav_order: 9
 
 - Submitted methods must be fully automatic.
 - Public and private data are permitted, however their use must be disclosed by participants.
-- Organizers may participate but not eligible for awards and not listed in leaderboard.
+- Members of the organizers' institutes may participate but not eligible for awards and not listed in leaderboard.
 - All participants must belong to teams, even if a team consists of only one member, and each participant can only be a member of one team.
 
 
