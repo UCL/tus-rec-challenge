@@ -7,7 +7,7 @@ nav_order: 2
 
 ><span style="font-size: 12px; color: gray; margin-top: -15px;">30/06/2025</span>
 >### 🔐 TUS-REC2024 Dataset Usage Policy Update
->The TUS-REC2024 training and validation datasets are publicly available for research purpuse as long as the challenge paper is properly cited, as specified on the <a href="https://doi.org/10.5281/zenodo.11178508" target="_blank">Zenodo page</a>. Please note that the TUS-REC2025 Challenge datasets are not permitted for public use yet. They are intended solely for use within the scope of the TUS-REC2025 Challenge at this moment.
+>The TUS-REC2024 training and validation datasets are publicly available for research purpose as long as the challenge paper is properly cited, as specified on the <a href="https://doi.org/10.5281/zenodo.11178508" target="_blank">Zenodo page</a>. Please note that the TUS-REC2025 Challenge datasets are not permitted for public use yet. They are intended solely for use within the scope of the TUS-REC2025 Challenge at this moment.
 
 ---
 
