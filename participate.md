@@ -52,6 +52,7 @@ Additional training and validation data from TUS-REC2024:
 * [Task description](task.html)
 * <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline" target="_blank">Baseline code</a>
 * Information about past [TUS-REC2024 Challenge](TUS-REC2024/TUS-REC2024.html)
+* <a href="https://doi.org/10.48550/arXiv.2506.21765" target="_blank">TUS-REC2024 Challenge paper</a>
 * Additional info:
     <a href="https://doi.org/10.1007/978-3-031-72083-3_64" target="_blank">Paper 1</a>,
     <a href="https://doi.org/10.1109/ISBI53787.2023.10230773" target="_blank">Paper 2</a>,
