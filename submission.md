@@ -29,7 +29,7 @@ nav_order: 8
 > * Your model is expected to run on a single GPU, with GPU memory usage not exceeding 32GB when running docker.
 > * Participants are required to dockerize their trained network/algorithm/method and submit them via a file-sharing link (e.g., OneDrive, Dropbox) to the organizers via this <a href="https://forms.office.com/e/dj1g5TKyaj" target="_blank">form</a>.
 > * Participants are allowed to make multiple distinct submissions (but must ensure they are not merely simple variations in hyperparameter values), and the best result will be selected for competing. The number of submissions for each team is limited to 5 to preserve variations in hyperparameters.
-
+> * The test set in the TUS-REC2025 Challenge includes only the rotation scans, but you may use the datasets from the TUS-REC2024 Challenge as extra training data.
 
 Please contact [`qi.li.21@ucl.ac.uk`](mailto:qi.li.21@ucl.ac.uk) if you encounter any problem during submission.
 
