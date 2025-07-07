@@ -4,6 +4,11 @@ layout: default
 nav_order: 2
 ---
 
+><span style="font-size: 12px; color: gray; margin-top: -15px;">07/07/2025</span>
+>### ⬆️ TUS-REC2025 Challenge Submission Phase Begins
+>The TUS-REC2025 Challenge has entered the submission phase. Participants can now submit their Dockerized algorithms via this <a href="https://forms.office.com/e/dj1g5TKyaj" target="_blank">form</a> by following the <a href="https://github-pages.ucl.ac.uk/tus-rec-challenge/submission.html" target="_blank">submission guideline</a>, which includes detailed instructions and an example Docker image. Additionally, the <a href="https://doi.org/10.5281/zenodo.15699958" target="_blank">validation dataset</a> has been released for local evaluation.
+
+---
 
 ><span style="font-size: 12px; color: gray; margin-top: -15px;">30/06/2025</span>
 >### 🔐 TUS-REC2024 Dataset Usage Policy Update

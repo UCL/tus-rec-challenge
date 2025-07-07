@@ -33,7 +33,7 @@ reconstruction for rotating scans, suitable for modern learning-based data-drive
 
 ## Timeline
 
-The TUS-REC2025 challenge is an open call event, accepting new submissions after conference deadline. The fixed challenge submission timeline below is associated with <a href="https://conferences.miccai.org/2025/en/" target="_blank">MICCAI 2025</a>. All times are 23:59 BST.
+The TUS-REC2025 Challenge is an open call event, accepting new submissions after conference deadline. The fixed challenge submission timeline below is associated with <a href="https://conferences.miccai.org/2025/en/" target="_blank">MICCAI 2025</a>. All times are 23:59 BST.
 
 | Date                          | Challenge Milestone                              |
 | :-----------------------------| :----------------------------------------------- |

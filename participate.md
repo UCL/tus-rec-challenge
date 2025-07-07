@@ -23,7 +23,7 @@ We will send the links of data to you once we receive your registration informat
 * <a href="https://zenodo.org/records/15224704" target="_blank">Training data</a>
 * <a href="https://doi.org/10.5281/zenodo.15699958" target="_blank">Validation data</a>
 
-Additional training and validation data from TUS-REC2024:
+Additional training and validation data from TUS-REC2024 Challenge:
 
 * <a href="https://zenodo.org/doi/10.5281/zenodo.11178508" target="_blank">Training data (Part 1)</a>
 * <a href="https://zenodo.org/doi/10.5281/zenodo.11180794" target="_blank">Training data (Part 2)</a>
