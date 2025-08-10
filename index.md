@@ -43,7 +43,7 @@ The TUS-REC2025 Challenge is an open call event, accepting new submissions after
 | Jul. 07, 2025                  | Submission Starts                               |
 | Aug. 31, 2025                  | Submission Closes                               |
 |  Sep. 01, 2025                 | Winners Announcement                               |
-|  Sep. 23, 2025                 | TUS-REC2025 Challenge Events at MICCAI 2025     |
+|  Sep. 27, 2025                 | TUS-REC2025 Challenge Events at MICCAI 2025     |
 
 The Challenge will take place on Sep. 27, 2025 during the <a href="https://miccai-ultrasound.github.io/#/asmus25" target="_blank">ASMUS Workshop</a>. (Details for location, presentation, and event format: TBC.)
 
