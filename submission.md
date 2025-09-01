@@ -6,6 +6,10 @@ nav_order: 8
 
 # Submission Process
 
+<!-- ><span style="font-size: 12px; color: gray; margin-top: -15px;">01/09/2025</span> -->
+>### Post-challenge submission
+>This challenge will remain open-ended, and we are planning to submit a challenge paper. Docker submissions made before 13 Oct 2025 will be considered for co-authorship in the challenge paper, based on performance. The same submission requirement applies to the post-challenge submission.    
+
 * Participants are encouraged to familiarize themselves with the fundamentals of building and running Docker images; however, advanced Docker expertise is not required. We have provided a <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline/blob/main/submission/README.md#instructions-for-docker" target="_blank">basic Docker image</a> to help you get started, which can predict DDFs on the validation/test dataset. The source code is also available in <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline/tree/main/submission" target="_blank">`submission`</a> folder.
 * The participants are expected to replace the content of <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline/blob/main/submission/predict_ddfs.py" target="_blank">`predict_ddfs`</a> function with their own algorithm, which is used in <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline/blob/a818cdb708049b6a2209b7dbde6759ef1c8af0e8/submission/test.py#L39" target="_blank">test.py</a>. The function is expected to take one entire scan as input, and output four DDFs. There is no requirement on how the algorithm is designed internally, for example, whether it is learning-based method; frame-, sequence- or scan-based processing; or, rigid-, affine- or nonrigid transformation assumptions.  
 * The requirement of the `predict_ddfs` function is described below:

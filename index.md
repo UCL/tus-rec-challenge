@@ -44,6 +44,7 @@ The TUS-REC2025 Challenge is an open call event, accepting new submissions after
 | Aug. 31, 2025                  | Submission Closes                               |
 |  Sep. 01, 2025                 | Winners Announcement                               |
 |  Sep. 27, 2025                 | TUS-REC2025 Challenge Events at MICCAI 2025     |
+|  Oct. 13, 2025                 | Post-challenge submission deadline |
 
 ## Programme
 
