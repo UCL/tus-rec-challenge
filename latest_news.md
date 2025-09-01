@@ -5,13 +5,13 @@ nav_order: 2
 ---
 
 
-<!-- ><span style="font-size: 12px; color: gray; margin-top: -15px;">01/09/2025</span>
+><span style="font-size: 12px; color: gray; margin-top: -15px;">01/09/2025</span>
 >### 🏆 Leaderboard Finalised & Joint Challenge Paper
 >The finalised <a href="https://github-pages.ucl.ac.uk/tus-rec-challenge/leaderboard.html" target="_blank">leaderboard</a> is now available. This challenge will remain open-ended, and we are planning to submit a challenge paper. Docker submissions made before 13 Oct 2025 will be considered for co-authorship in the challenge paper, based on performance.  
 
 
 
---- -->
+---
 
 ><span style="font-size: 12px; color: gray; margin-top: -15px;">07/07/2025</span>
 >### ⬆️ TUS-REC2025 Challenge Submission Phase Begins
