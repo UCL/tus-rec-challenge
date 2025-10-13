@@ -3,7 +3,9 @@ title: Leaderboard
 layout: default
 nav_order: 10
 ---
+
 # Leaderboard (before submission deadline)
+
 | **Rank** | **Team Name** | **Team Members**                              | **Team Affiliation**                      | **Final Score** | **Global Score** | **Local Score** | **Pixel Score** | **Landmark Score** |     **GPE (mm)**      |     **GLE (mm)**      |     **LPE (mm)**     |     **LLE (mm)**     | **Run Time (s)** |
 |----------|---------------|-----------------------------------------------|-------------------------------------------|-----------------|------------------|-----------------|-----------------|--------------------|------------------|------------------|-----------------|-----------------|------------------|
 |  1   |  ImFusion  | Paul Wilson, Matteo Ronchetti, Ruediger Goebl, Viktoria Markova, Sebastian Rosenzweig, Raphael Prevost, Parvin Mousavi, Oliver Zettinig |                                            ImFusion GmbH, Germany; Queen's University, Canada                                            | **0.622±0.071** | 0.656±0.125  | 0.588±0.039 | 0.627±0.058 |  0.617±0.090   | 9.249±2.906  | 6.986±3.012  | 0.153±0.020 | 0.120±0.018 |  26.744±2.997  |
@@ -13,7 +15,9 @@ nav_order: 10
 |  5   |  AMI-Lab   |       SiYeoul Lee, SeongKyu Park, MinKyung Seo, Seonho Kim, GyuBin Kim, EonSeung Seong, Imrus Salehin, Hyeyun Lee, MinWoo Kim       |                                                Pusan National University, Yangsan, Korea                                                 | **0.301±0.155** | 0.106±0.283  | 0.497±0.064 | 0.373±0.127 |  0.230±0.202   | 21.800±6.477 | 19.645±6.310 | 0.177±0.027 | 0.157±0.035 |  10.439±0.683  |
 |  6   |    QBME    |                                                                 Tan Zhou                                                                |                                                   Shanghai Jiao Tong University, China                                                   | **0.188±0.206** | -0.023±0.398 | 0.399±0.051 | 0.248±0.161 |  0.128±0.276   | 25.708±8.263 | 21.728±9.009 | 0.216±0.026 | 0.183±0.032 |  34.686±2.808  |
 |  7   |  Baseline  |                                                        TUS-REC Organisation Team                                                        |                                                University College London, United Kingdom                                                 | **0.163±0.216** | -0.078±0.410 | 0.405±0.051 | 0.244±0.145 |  0.083±0.304   | 26.110±7.256 | 23.681±9.049 | 0.214±0.025 | 0.181±0.030 |  19.753±1.570  |
+
 # Leaderboard (including post-challenge submissions)
+
 | **Rank** |      **Team Name**      |                                                               **Team Members**                                                              |                                                             **Team Affiliation**                                                             | **Final Score**  | **Global Score** | **Local Score** | **Pixel Score**  | **Landmark Score** |   **GPE (mm)**   |   **GLE (mm)**   |   **LPE (mm)**  |   **LLE (mm)**  |  **Run Time (s)**  |
 |----------|---------------|-----------------------------------------------|-------------------------------------------|-----------------|------------------|-----------------|-----------------|--------------------|------------------|------------------|-----------------|-----------------|------------------|
 |  1   |       ImFusion      | Paul Wilson, Matteo Ronchetti, Ruediger Goebl, Viktoria Markova, Sebastian Rosenzweig, Raphael Prevost, Parvin Mousavi, Oliver Zettinig |                                            ImFusion GmbH, Germany; Queen's University, Canada                                            | **0.622±0.071**  | 0.656±0.125  | 0.588±0.039 | 0.627±0.058  |  0.617±0.090   | 9.249±2.906  | 6.986±3.012  | 0.153±0.020 | 0.120±0.018 |  26.744±2.997  |
