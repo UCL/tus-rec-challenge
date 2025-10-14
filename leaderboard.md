@@ -31,5 +31,5 @@ nav_order: 10
 |  7   |    QBME    |                                                                 Tan Zhou                                                                |                                                   Shanghai Jiao Tong University, China                                                   | **0.188±0.206** | -0.023±0.398 | 0.399±0.051 | 0.248±0.161 |  0.128±0.276   | 25.708±8.263 | 21.728±9.009 | 0.216±0.026 | 0.183±0.032 |  34.686±2.808  |
 |  8   |  Baseline  |                                                        TUS-REC Organisation Team                                                        |                                                University College London, United Kingdom                                                 | **0.163±0.216** | -0.078±0.410 | 0.405±0.051 | 0.244±0.145 |  0.083±0.304   | 26.110±7.256 | 23.681±9.049 | 0.214±0.025 | 0.181±0.030 |  19.753±1.570  |
 
-> *: post-challenge submissions
+> *Post-challenge submissions
 
