@@ -30,6 +30,7 @@ reconstruction for rotating scans, suitable for modern learning-based data-drive
 * <a href="https://doi.org/10.5281/zenodo.15699958" target="_blank">Validation data</a>
 * <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline" target="_blank">Baseline code</a>
 * <a href="https://github.com/QiLi111/TUS-REC2025-Challenge_baseline/tree/main/submission" target="_blank">Submission/Evaluation code</a>
+* <a href="https://doi.org/10.48550/arXiv.2506.21765" target="_blank">TUS-REC2024 Challenge paper</a>
 
 ## Timeline
 
