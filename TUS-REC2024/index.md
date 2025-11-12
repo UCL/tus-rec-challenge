@@ -16,8 +16,8 @@ nav_order: 1
 
 **Trackerless 3D Freehand Ultrasound Reconstruction (TUS-REC) Challenge**
 
->### 📝 TUS-REC2024 Challenge Paper Update
-><a href="img/supplementary.xlsx" target="_blank">supplementary</a>
+<!-- >### 📝 TUS-REC2024 Challenge Paper Update
+><a href="img/supplementary.xlsx" target="_blank">supplementary</a> -->
 
 ---
 
