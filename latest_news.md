@@ -5,6 +5,13 @@ nav_order: 2
 ---
 
 
+><span style="font-size: 12px; color: gray; margin-top: -15px;">14/11/2025</span>
+>### 📚 TUS-REC2024 Challenge Paper Updated on arXiv
+>We are pleased to announce that the TUS-REC2024 Challenge paper has been updated with a more comprehensive literature review and accompanying supplementary material. You can access the updated version here: <a href="https://doi.org/10.48550/arXiv.2506.21765" target="_blank">https://doi.org/10.48550/arXiv.2506.21765</a> and the supplementary material here: <a href="img/supplementary.xlsx" target="_blank">supplementary</a>.
+
+---
+
+
 ><span style="font-size: 12px; color: gray; margin-top: -15px;">01/09/2025</span>
 >### 🏆 Leaderboard Finalised & Joint Challenge Paper
 >The finalised <a href="https://github-pages.ucl.ac.uk/tus-rec-challenge/leaderboard.html" target="_blank">leaderboard</a> is now available. This challenge will remain open-ended, and we are planning to submit a challenge paper. Docker submissions made before 13 Oct 2025 will be considered for co-authorship in the challenge paper, based on performance.  

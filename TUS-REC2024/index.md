@@ -16,6 +16,11 @@ nav_order: 1
 
 **Trackerless 3D Freehand Ultrasound Reconstruction (TUS-REC) Challenge**
 
+---
+
+>### 📚 TUS-REC2024 Challenge Paper Updated on arXiv
+>We are pleased to announce that the TUS-REC2024 Challenge paper has been updated with a more comprehensive literature review and accompanying supplementary material. You can access the updated version here: <a href="https://doi.org/10.48550/arXiv.2506.21765" target="_blank">https://doi.org/10.48550/arXiv.2506.21765</a> and the supplementary material here: <a href="img/supplementary.xlsx" target="_blank">supplementary</a>.
+
 <!-- >### 📝 TUS-REC2024 Challenge Paper Update
 ><a href="img/supplementary.xlsx" target="_blank">supplementary</a> -->
 
