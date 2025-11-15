@@ -6,8 +6,8 @@ nav_order: 2
 
 
 ><span style="font-size: 12px; color: gray; margin-top: -15px;">14/11/2025</span>
->### 📚 TUS-REC2024 Challenge Paper Updated on arXiv
->We are pleased to announce that the TUS-REC2024 Challenge paper has been updated with a more comprehensive literature review and accompanying supplementary material. You can access the updated version here: <a href="https://doi.org/10.48550/arXiv.2506.21765" target="_blank">https://doi.org/10.48550/arXiv.2506.21765</a> and the supplementary material here: <a href="TUS-REC2024/img/supplementary.xlsx" target="_blank">supplementary</a>.
+>### 📚 TUS-REC2024 Challenge Paper Update
+>The TUS-REC2024 Challenge paper has been updated with a more comprehensive literature review and accompanying supplementary material. You can access the updated version here: <a href="https://doi.org/10.48550/arXiv.2506.21765" target="_blank">https://doi.org/10.48550/arXiv.2506.21765</a> and the supplementary material here: <a href="TUS-REC2024/img/supplementary.xlsx" target="_blank">supplementary</a>.
 
 ---
 
